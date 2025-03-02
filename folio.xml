@@ -25,17 +25,6 @@
   </para>
  </section>
 
- <sect1 id="content">
- <title>My content</title>
- <para>You can use Docbook to markup your writing.</para>
- <para>Docbook can be transformed into other formats of text.</para>
- </sect1>
-
- <sect2 id="conclusion">
- <title>Conclusion</title>
- <para>In conclusion, Docbook is simple.</para>
- </sect2>
-
  <bibliography>
 	 <title>Bibliography</title> 
 	 <biblioentry id="pm-ai-speech2025">
