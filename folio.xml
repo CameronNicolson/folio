@@ -26,18 +26,25 @@
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
 	 </para>
-		 The National Foundation for Educational Research (NFER) recently found that 90% of teachers in England have considered leaving their jobs due to high workloads. This widespread dissatisfaction further compounds the decline in public schooling, with NFER's forecast indicating severe recruitment shortages.
-	 </para>
 		  <para>
-	 Schools across Britain have experienced a shortfall in filling teacher spots.
-	 Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce. The education sector and its workforce are approaching a shift in practice driven by AI.
+	 In recent years, the attractivness of teaching has fallen across Britain  and working conditions have changed.
+	 Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
+			  Within Scotland, staffing saw a steady increase in the pupil-teacher ratio, which currently stands at 13.3 students per teacher. Together with a rise in teachers leaving before completing their five-year tenure, according to the latest figures <citation linkend="stv-teachers-leaving" />. 
 		  </para>
+		  <para>
+		 England faces a similar situation with 90% of teachers saying they have considered leaving their jobsdue ot high workloads, and contending with recruitment shortages. These reports come from the National Foundation for Educational Research (NFER). 
+		  </para>
+		  <para>
+The government aimed to tackle the situation by giving £1 million <citation id="govuk-one-million-ai-teaching-tools" /> in funding to 16 tech companies to build AI teaching tools. This investment has yielded tangable prototypes to date. 
+The initiative is guided by the AI Opportunities Action Plan, devised by the government's AI adviser, Matt Clifford. According to the document, with the newly created AI deployment, public services should be its primary customer. Consequently, the government is positioning itself as both a mass producer and user of AI.
+	 </para>
+	 <para>
+	 These plans prompted the National Education Union's general secutary, replying to the news that the Department for Education was "running away with itself." This comes with claims from elsewhere that education centres had not been involved in the decisions.  
+	 </para>
 			  <para>
 				  The government's AI Opportunities Adviser, Matt Clifford CBE, prepared 50 recommendations emphasising that AI tools should be evaluated from the perspective of their primary users: public services. One recommendation highlighted an AI assistant for lesson planning, expected to save over 15 hours of work, showcasing ongoing AI development for the public sector.
 			  </para>
 
-	 The AI Opportunities Action Plan, a comprehensive strategy aimed at maximizing AI adoption, is supported by the Department for Education (DfE). The plan seeks to integrate AI tools into the education system, citing enhanced teacher productivity and job satisfaction.
- </para>
   <para> 
 As part of this shift, two AI applications are currently in development: student marking tools, designed to provide "tailored feedback" on student work—including handwritten and pictorial submissions—and a lesson plan generator. From published findings, the teachers expressed the AI's instrumental value and the benefits it could bring, such as time-saving.
   </para>
@@ -132,22 +139,75 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 		  </publishername>
 	  </publisher>
 	  <pubdate>1 Janurary 2017</pubdate>
-	  <url>https://www.bbc.co.uk/rd/projects/ai-production</url>
+	  <bibliosource class="uri">
+		  <link xlink:href="https://www.bbc.co.uk/rd/projects/ai-production">
+https://www.bbc.co.uk/rd/projects/ai-production
+		  </link>
+	  </bibliosource>
   </biblioentry>
- </bibliography>
- <bibliography id="ibm-customer-service-ai">
-    <authorgroup>
+ <biblioentry id="ibm-customer-service-ai">
       <corpauthor>
         <trademark>IBM</trademark>
 	International Business Machines Corporation
       </corpauthor>
-    </authorgroup>
 	  <publisher>
 		  <publishername>
 			  International Business Machines Corporation
 		  </publishername>
 	  </publisher>
 	  <pubdate>7 December 2023</pubdate>
-	 <url>https://www.ibm.com/think/insights/customer-service-future</url>
+	  <bibliosource class="uri">
+		  <link xlink:href="https://www.ibm.com/think/insights/customer-service-future">
+https://www.ibm.com/think/insights/customer-service-future
+		  </link>
+	  </bibliosource>
+	 <biblioentry>		  
+ </biblioentry>
+ <biblioentry pubwork="webpage" id="stv-teachers-leaving">
+	    <author>
+	    <orgname class="corporation">
+		PA Media
+		<uri href="https://pa.media/">https://pa.media</uri>
+	    </orgname>
+	    </author>
+	  <title>Hundreds of new teachers quit profession within five years, figures show</title>
+	  <pubdate>5 Janurary 2024</pubdate>
+	  <bibliosource class="uri">
+		  <link xlink:href="https://news.stv.tv/scotland/hundreds-of-new-teachers-quit-profession-within-five-years-figures-show"></link>
+	  </bibliosource>
+	 <biblioentry id="govuk-one-million-ai-teaching-tools">
+		 <biblioentry>
+			 <pubdate>13 January 2025</pubdate>
+			 <authorgroup>
+			  <author>
+			    <personname>
+				<firstname>Bridget</firstname>
+				<surname>Phillipson</surname>
+			     </personname>
+			  </author>
+			  <author>
+			    <personname>
+				<firstname>Peter</firstname>
+				<surname>Kyle</surname>
+			     </personname>
+			  </author>
+				 <author>
+					 <orgname class="other" otherclass="national-government">
+    Department for Education
+					 </orgname>
+				 </author>
+			 <author>
+					 <orgname class="other" otherclass="national-government">
+						 Department for Science, Innovation and Technology
+					 </orgname>
+				 </author>
+			 </authorgroup>
+	  <bibliosource class="uri">
+		  <link xlink:href="https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-to-opportunity">
+https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-to-opportunity
+		  </link>
+	  </bibliosource>
+
+			 </biblioentry>
  </bibliography>
 </article>
