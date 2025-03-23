@@ -25,6 +25,7 @@
 	 </para>
 	 <para>
 	 to AI is an emerging technogy and produced bundles of new applications and markets, such as self-driving vehicles.  Histronically speaking, AI has spent a large part of its life being unrefined and lacking in pratical use, once commonly existance as a theorised standard.  
+	 </para>
 		 <para>
 		AI has been in development for over 70 years, emerging around the same time as the formal establishment of Computer Science as an academic discipline. While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling market leaders to embrace AI, the UK Government is one such stakeholder.
 		 </para>
@@ -52,15 +53,12 @@
 			 The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposed any move to prioritize AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools could devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
 Responding to the news, the NEU's general secretary criticized the exclusion of teaching experts from rollout decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
 </para>
-		 replying to the news that the Department for Education was "running away with itself." This comes with claims from elsewhere that education centres had not been involved in the decisions.  
-	 </para>
 		  <para>
 The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using generative AI (GPT-4-turbo), and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
 		  </para>
 		  <para>
 		In the case of young students, four out of five teenagers (ages 13–17) engage with generative AI <citation linkend="ofcom-kids-embrace-ai" />, and over half express interest in using AI for studying, according to recent reports <citation linkend="ldn-gointerest-kids-ai" />. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat <citation linkend="bbc-scot-cheating-ai" />.
 		  </para>
-
 		  <para>
 Artificial intelligence is already used in classrooms around the country, enhancing the learning environment. At Tor Bank, a special needs school, AI has been used to help students communicate and create in new ways. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
 		  </para>
@@ -74,17 +72,12 @@ Artificial intelligence is already used in classrooms around the country, enhanc
 CharacterAI is a platform to digitally chat through AI companionships <citation linkend="bbc-charai-therapist-bot" /> simulating real and fictional people, with millions of users <citation linkend="charai-lawsuits" />. The company publicly states user safety is a priority <citation linkend="charai-safety-updates" />. However, despite these claims, CharacterAI is currently facing significant legal challenges due to lawsuits alleging harm to children and teenagers who have used the platform. One of the more extreme examples involved romancing and convincing a 14-year-old to commit suicide <citation linkend="nypost-14yo-charai" />.
 		  </para>
 		  <para>
-			  altough the app has faced two major lawsuits with relation to harming young children. 
-
-			  believes the student's social skills are underminned by the technology, saying "we don’t want children to become more introverted, unsociable and less able to articulate a point of view"  
+The risks associated with generative AI, as documented by experts, reinforce concerns over its unfettered operation. Many organisations have called on the government to implement safeguards against the rapid wave of AI innovations. However, the government has been slow to enact AI legislation, with Lord Holmes even accusing them of ignoring manifesto promises that called for such measures <citation linkend="independent-lord-holmes" />. They also rebranded the AI Safety Institute as the AI Security Institute. Notably, during a global summit in February, the government refused to sign an international AI declaration, citing a lack of 'practical clarity.'
 		  </para>
-  <para> 
-	  Two government-sponsored AI applications have reached the testing stage: a student marking tool designed to provide 'tailored feedback' on student work—including handwritten and pictorial submissions—and a lesson plan generator. During user testing, participants recognized the AI’s instrumental value and expressed a willingness to use it again.
-  </para>
   <para>
 Both applications leverage generative AI—a term consistent with the DfE's classification of such tools—a subclass of artificial intelligence specifically designed to analyse public data and generate meaningful outputs.
   </para>
-
+  </section>
   <section>
 	  <title>What is Generative AI?</title>
 	  <para>Generative AI, also referred to as GenAI, creates content, commonly text and audio, based on inputs by the users. To create useful content, the AI relies on deep learning models, 
@@ -92,11 +85,10 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
   </para>
   </section>
+  <section>
 		 <para>
 	 Education and schooling is one of the UK's core public services, with the UK as a whole responsible for over 29,000 schools across England, Scotland, Wales, and Northern Ireland, filled with a workforce that makes up 25% of the UK's 6.12 million total across all sectors.  
-
 	 give a state to show its size and scale. 
-
 		The plan for the UK Government is to implement the AI oppurtunities Action Plan, set out by Matt Clifford, which contains 50 recommendations 
 	 The government has commited to take forward the AI Oppurtunities Action Plan and its 50 recommendations. The action plan details a number of key industries, including healthcare, private 
 	 In the government’s proposed initiatives, explicitly mentioned was a direction for teachers to be supported by AI, such as admin tasks. In additional, educators were advised to step-up AI curriculum to students. 
@@ -464,6 +456,27 @@ https://www.bbc.co.uk/news/technology-67872693
 	    https://nypost.com/2024/10/23/us-news/florida-boy-14-killed-himself-after-falling-in-love-with-game-of-thrones-a-i-chatbot-lawsuit/
 	    </link>
     </bibliosource>
+    </biblioentry>
+    <biblioentry id="independent-lord-holmes">
+	    <citetitle>Government urged to bring forward AI regulations which put ‘humans at heart'</citetitle>
+	    <pubdate>10 March 2025</pubdate>
+	    <authorgroup>
+	    <author>
+		    <personname>
+			    <firstname>Richard</firstname>
+			    <surname>Wheeler</surname>
+		    </personname>
+	    </author>
+    </authorgroup>
+	    <publisher>
+             <publishername>The Independent</publishername>
+	     <address><city>London</city><postcode>EC2A 1AH</postcode></address>
+	    </publisher>
+	    <bibliosource class="uri">
+		    <link href="https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conservative-richmond-lord-b2711891.html">
+https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conservative-richmond-lord-b2711891.html
+		    </link>
+	    </bibliosource>
     </biblioentry>
  </bibliography>
 </article>
