@@ -17,7 +17,7 @@
  <section id="intro">
  <title>Introduction</title>
  <para>
-		 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation linkend="scotgov-spice-ai-healthcare" />
+	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation linkend="scotgov-spice-ai-healthcare" />
 		 <citation linkend="forbes-how-ai-fraud-detection" />
 		 <citation linkend="bbc-ai-production" />
 		 <citation linkend="ibm-customer-service-ai" />.
@@ -57,7 +57,27 @@ Responding to the news, the NEU's general secretary criticized the exclusion of 
 		  <para>
 The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using generative AI (GPT-4-turbo), and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
 		  </para>
-		  While the AI tool demonstrated a high level of accuracy on isolated sentences, the performance did decrease when applied to longer and more complex pieces of writing like the 20-sentence essays and the synthetic pupil essays. This suggests that factors such as increased text length and the presence of multiple, potentially overlapping errors can pose challenges for the error detection pipeline
+		  <para>
+		In the case of young students, four out of five teenagers (ages 13–17) engage with generative AI <citation linkend="ofcom-kids-embrace-ai" />, and over half express interest in using AI for studying, according to recent reports <citation linkend="ldn-gointerest-kids-ai" />. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat <citation linkend="bbc-scot-cheating-ai" />.
+		  </para>
+
+		  <para>
+Artificial intelligence is already used in classrooms around the country, enhancing the learning environment. At Tor Bank, a special needs school, AI has been used to help students communicate and create in new ways. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
+		  </para>
+	  <para>
+		  Moreover, David Game College designed its GCSE course to be "teacherless," <citation linkend="skynews-teacherless-class" /> where teenagers engage in question-and-answer sessions with AI-powered Adaptive Learner systems <citation linkend="david-game-college-coursepage" />. The scores from these sessions determine which coursework is flagged by a virtual tutor.
+		  </para>
+		  <para>
+			  However, some criticisms of AI tutors center around well-being. Chris McGovern, leader of the Campaign for Real Education, argued that building AI-driven classrooms could encroach on children's social skills. The 2025 NSPCC report on generative AI <citation linkend="nspcc-genai-safeguarding" /> and child safety strongly implied that children remain vulnerable to its misuse due to existing safety measures being insufficient as preventative safeguards.
+		  </para>
+		  <para>
+CharacterAI is a platform to digitally chat through AI companionships <citation linkend="bbc-charai-therapist-bot" /> simulating real and fictional people, with millions of users <citation linkend="charai-lawsuits" />. The company publicly states user safety is a priority <citation linkend="charai-safety-updates" />. However, despite these claims, CharacterAI is currently facing significant legal challenges due to lawsuits alleging harm to children and teenagers who have used the platform. One of the more extreme examples involved romancing and convincing a 14-year-old to commit suicide <citation linkend="nypost-14yo-charai" />.
+		  </para>
+		  <para>
+			  altough the app has faced two major lawsuits with relation to harming young children. 
+
+			  believes the student's social skills are underminned by the technology, saying "we don’t want children to become more introverted, unsociable and less able to articulate a point of view"  
+		  </para>
   <para> 
 	  Two government-sponsored AI applications have reached the testing stage: a student marking tool designed to provide 'tailored feedback' on student work—including handwritten and pictorial submissions—and a lesson plan generator. During user testing, participants recognized the AI’s instrumental value and expressed a willingness to use it again.
   </para>
@@ -70,14 +90,8 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	  <para>Generative AI, also referred to as GenAI, creates content, commonly text and audio, based on inputs by the users. To create useful content, the AI relies on deep learning models, 
 
 	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
-	  The consumer market was adorned with AI assistants in recent decades, popular choices being Alexa, Siri, and Google Assistant. Aside from the hands-free utilitarian progress, the evolution in AI was creating computers that qualified for the Turing Test --a thought experiment created by Alan Turing to-- sporting a virtual helper who vocalised their answers, with a natural sounding voice. 
-	  However, the conversational open endiness  
   </para>
   </section>
-
-		 <para>
-		 One such application 
-		 </para>
 		 <para>
 	 Education and schooling is one of the UK's core public services, with the UK as a whole responsible for over 29,000 schools across England, Scotland, Wales, and Northern Ireland, filled with a workforce that makes up 25% of the UK's 6.12 million total across all sectors.  
 
@@ -88,11 +102,10 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	 In the government’s proposed initiatives, explicitly mentioned was a direction for teachers to be supported by AI, such as admin tasks. In additional, educators were advised to step-up AI curriculum to students. 
  </para>
  </section>
- <bibliography xmlns='http://docbook.org/ns/docbook'>
+ <bibliography role="serial" version="5.0" xmlns="http://docbook.org/ns/docbook">
 	 <title>Bibliography</title> 
-	 <bibliodiv><title>Books</title></bibliodiv>
-
 	 <biblioentry id="pm-ai-speech2025">
+    <citetitle>PM speech on AI Opportunities Action Plan</citetitle>
 	<author>
         <personname>
 	  <honorific>Sir</honorific>
@@ -100,14 +113,24 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
           <surname>Starmer</surname>
         </personname>
         </author>
-    <title>PM speech on AI Opportunities Action Plan: 13 January 2025</title>
     <pubdate>13 January 2025</pubdate>
-    <publisher>UK Government</publisher>
-    <city>London</city>
-    <biblioid class="url">https://www.gov.uk/government/speeches/pm-speech-on-ai-opportunities-action-plan-13-january-2025</biblioid>
+    <publisher>
+	<publishername>
+	  UK Government
+	</publishername>
+    </publisher>
+    <address>
+      <orgname>ULC</orgname>
+      <city>London</city>
+      <country>United Kingdom</country>
+    </address>
+    <bibliosource class="uri">
+	    <link href="https://www.gov.uk/government/speeches/pm-speech-on-ai-opportunities-action-plan-13-january-2025">
+https://www.gov.uk/government/speeches/pm-speech-on-ai-opportunities-action-plan-13-january-2025
+    </link></bibliosource>
 </biblioentry>
   <biblioentry id="scotgov-spice-ai-healthcare">
-    <abbrev>SPICe 2024</abbrev>
+    <abbrev>SPICe2024</abbrev>
     <authorgroup>
       <author>
         <firstname>Scottish Parliament Information Centre</firstname>
@@ -162,10 +185,9 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
   </biblioentry>
   <biblioentry id="bbc-ai-production">
     <authorgroup>
-      <corpauthor>
-        <trademark>BBC</trademark>
-	British Broadcasting Corporation
-      </corpauthor>
+      <author>
+        <orgname>British Broadcasting Corporation</orgname>
+      </author>
     </authorgroup>
 	  <publisher>
 		  <publishername>
@@ -301,6 +323,147 @@ Building a proof of concept for Generative AI feedback and resource generation i
   <pubdate>28 August 2024</pubdate>
   <revnum>RR1423</revnum>
   </biblioentry>
+  
+  <biblioentry pubwork="article" id="ldn-gointerest-kids-ai">
+	  <citetitle>AI gap: 56% of students want to learn with AI, but UK schools lag behind with just 20% having access to AI in the classroom</citetitle>
+	  <corpauthor>
+           London Daily News
+	  </corpauthor>
+	  <pubdate>8 March 2024</pubdate>
+	  <biblioentry>
+		  <link href="https://www.londondaily.news/ai-gap-56-of-students-want-to-learn-with-ai-but-uk-schools-lag-behind-with-just-20-having-access-to-ai-in-the-classroom/">https://www.londondaily.news/ai-gap-56-of-students-want-to-learn-with-ai-but-uk-schools-lag-behind-with-just-20-having-access-to-ai-in-the-classroom/</link>
+	  </biblioentry>
+  </biblioentry>
+  <biblioentry pubwork="article" id="ofcom-kids-embrace-ai">
+	  <citetitle>Gen Z driving early adoption of Gen AI, our latest research shows</citetitle>
+	  <pubdate>28 November 2023</pubdate>
+	  <publisher>
+		  <publishername>Office of Communications</publishername>
+	  </publisher>
+	  <bibliosource class="uri">
+		  <link href="https://www.ofcom.org.uk/internet-based-services/technology/gen-z-driving-early-adoption-of-gen-ai/?utm_source=chatgpt.com"> https://www.ofcom.org.uk/internet-based-services/technology/gen-z-driving-early-adoption-of-gen-ai/?utm_source=chatgpt.com</link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry pubwork="article" id="bbc-scot-cheating-ai">
+	  <citetitle>Are Scottish students using AI to cheat their way to a degree?</citetitle>
+	  <pubdate>6 March 2025</pubdate>
+	  <authorgroup>
+		  <author>
+		  <personname>
+		  <firstname>Kayleigh</firstname><surname>Harvey</surname>
+		  </personname>
+	  </author>
+      <corpauthor>
+        <trademark>BBC</trademark>
+	British Broadcasting Corporation Scotland News
+      </corpauthor>
+	  </authorgroup>
+	  <publisher>
+		  <publishername>British Broadcasting Corporation</publishername>
+	  </publisher>
+	  <bibliosource class="uri">
+		<link href="https://www.bbc.co.uk/news/articles/ckg88kk1n8jo">https://www.bbc.co.uk/news/articles/ckg88kk1n8jo</link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry pubwork="webpage" id="david-game-college-coursepage">
+	   <citetitle>GCSE AI Adaptive</citetitle>
+	   <corpauthor>
+		<orgname>David Game College</orgname>
+	   </corpauthor>
+	 <publisher>
+	  <publishername>David Game College</publishername>
+	  <address>
+		  <orgname>David Game College</orgname>
+		  <street>31 Jewry Street</street>
+		  <city>London</city>
+	  </address>
+	 </publisher>
+ <bibliosource class="uri">
+		<link href="https://www.davidgamecollege.com/courses/courses-overview/item/102/gcse-ai-adaptive-learning-programme">https://www.davidgamecollege.com/courses/courses-overview/item/102/gcse-ai-adaptive-learning-programme</link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry pubwork="article" id="skynews-teacherless-class">
+	  <citetitle>UK's first 'teacherless' AI classroom set to open in London</citetitle>
+	  <pubdate>31 August 2024</pubdate>
+	  <author>
+		  <personname>
+			  <firstname>Mickey</firstname>
+			  <surname>Carroll</surname>
+		  </personname>
+	  </author>
+	  <publisher>
+		<publishername>Sky News</publishername>
+	  </publisher>
+ <bibliosource class="uri">
+		<link href="https://news.sky.com/story/uks-first-teacherless-ai-classroom-set-to-open-in-london-13200637">https://news.sky.com/story/uks-first-teacherless-ai-classroom-set-to-open-in-london-13200637</link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry id="nspcc-genai-safeguarding">
+  <citetitle>Viewing Generative AI and children’s safety in the round</citetitle>
+  <authorgroup>
+    <corpauthor>NSPCC</corpauthor>
+  </authorgroup>
+  <pubdate>January 2025</pubdate>
+  <publisher>NSPCC</publisher>
+</biblioentry>
+<biblioentry>
+	<citetitle>Can artificial intelligence replace teachers in schools?</citetitle>
+	<pubdate>7 March 2025</pubdate>
+	<publisher>
+         <publishername>The Institution of Engineering and Technology</publishername>
+	</publisher>
+	<authorgroup>
+		<author class="nonprofit"><orgname>E+T Magazine</orgname></author>
+	  <author><personname><firstname>Cris</firstname><surname>Andrews</surname></personname></author>
+	</authorgroup>
+	<bibliosource>
+		<link href="https://eandt.theiet.org/2025/03/07/can-artificial-intelligence-replace-teachers-schools">https://eandt.theiet.org/2025/03/07/can-artificial-intelligence-replace-teachers-schools</link>
+	</bibliosource>
+</biblioentry>
+<biblioentry id="bbc-charai-therapist-bot">
+ <citetitle>Character.ai: Young people turning to AI therapist bots</citetitle>
+    <author>
+	    <personname><firstname>Joe</firstname><surname>Tidy</surname></personname>
+    </author>
+    <pubdate>5 Janurary 2024</pubdate>
+    <publisher><publishername>BBC</publishername></publisher>
+    <bibliosource>
+	    <link>
+https://www.bbc.co.uk/news/technology-67872693
+	    </link>
+    </bibliosource>
+    </biblioentry>
+    <biblioentry id="charai-lawsuits">
+	    <citetitle>Character.AI Lawsuits</citetitle>
+	    <pubdate>March 2025</pubdate>
+	    <publisher>
+		    <publishername>Social Media Victims Law Center</publishername>
+	    </publisher>
+	    <bibliosource>
+		    <link>https://socialmediavictims.org/character-ai-lawsuits/</link>
+	    </bibliosource>
+    </biblioentry>
+    <biblioentry id="charai-safety-updates">
+	    <citetitle>Community Safety Updates</citetitle>
+	    <publisher>Character AI</publisher>
+	    <link>https://blog.character.ai/community-safety-updates/</link>
+    </biblioentry>
+    <biblioentry id="nypost-charai-14yo-death">
+	    <pubdate>23 October 2024</pubdate>
+	    <authorgroup>
+		    <author>
+			    <orgname>New York Post</orgname>
+		</author>
+			<author><personname>
+					<firstname>Emily</firstname>
+					<surname>Crane</surname>
+			</personname></author>
+	    </authorgroup>
+	    <bibliosource>
+	    <link>
+	    https://nypost.com/2024/10/23/us-news/florida-boy-14-killed-himself-after-falling-in-love-with-game-of-thrones-a-i-chatbot-lawsuit/
+	    </link>
+    </bibliosource>
+    </biblioentry>
  </bibliography>
 </article>
-
