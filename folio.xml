@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
 <article>
  <info>
  <title>AI Use for Aided Teaching in Country’s Mainstream Classrooms</title>
+ <author>
+  <personname> 
+  <firstname>Cameron</firstname>
+  <surname>Nicolson</surname>
+  </personname>
+ </author>
+   <pubdate>30 April 2025</pubdate>
  </info>
 
  <section id="intro">
@@ -21,13 +31,14 @@
 		 <para>
 			 The Cabinet of the United Kingdom, under both Labour and Conservaative governments, recognised the technological step change and pledged investments in AI development. The Conservative-led government allocated £900 million to various British AI projects, citing economic growth as a key incentive. 
 		 </para>
+		 <para>
 		 In 2025, the government support for AI reached new heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <citation linkend="pm-ai-speech2025"/>. 
 	 </para>
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
 	 </para>
 		  <para>
-	 In recent years, the attractivness of teaching has fallen across Britain  and working conditions have changed.
+	 In recent years, the attractivness of teaching has fallen across Britain and working conditions have changed.
 	 Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
 			  Within Scotland, staffing saw a steady increase in the pupil-teacher ratio, which currently stands at 13.3 students per teacher. Together with a rise in teachers leaving before completing their five-year tenure, according to the latest figures <citation linkend="stv-teachers-leaving" />. 
 		  </para>
@@ -35,18 +46,20 @@
 		 England faces a similar situation with 90% of teachers saying they have considered leaving their jobsdue ot high workloads, and contending with recruitment shortages. These reports come from the National Foundation for Educational Research (NFER). 
 		  </para>
 		  <para>
-The government aimed to tackle the situation by giving £1 million <citation id="govuk-one-million-ai-teaching-tools" /> in funding to 16 tech companies to build AI teaching tools. This investment has yielded tangable prototypes to date. 
-The initiative is guided by the AI Opportunities Action Plan, devised by the government's AI adviser, Matt Clifford. According to the document, with the newly created AI deployment, public services should be its primary customer. Consequently, the government is positioning itself as both a mass producer and user of AI.
+			  The government aimed to tackle the situation by giving £1 million <citation linkend="govuk-one-million-ai-teaching-tools" /> in funding to 16 tech companies to build AI teaching tools. This investment has yielded tangable prototypes to date. The initiative is guided by the AI Opportunities Action Plan <citation linkend="ai-opportunities-action-plan" />, devised by the government's AI adviser, Matt Clifford. According to the document, with the newly created AI deployment, public services should be its primary customer. Consequently, the government is positioning itself as both a mass producer and user of AI.
 	 </para>
 	 <para>
-	 These plans prompted the National Education Union's general secutary, replying to the news that the Department for Education was "running away with itself." This comes with claims from elsewhere that education centres had not been involved in the decisions.  
+			 The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposed any move to prioritize AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools could devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
+Responding to the news, the NEU's general secretary criticized the exclusion of teaching experts from rollout decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
+</para>
+		 replying to the news that the Department for Education was "running away with itself." This comes with claims from elsewhere that education centres had not been involved in the decisions.  
 	 </para>
-			  <para>
-				  The government's AI Opportunities Adviser, Matt Clifford CBE, prepared 50 recommendations emphasising that AI tools should be evaluated from the perspective of their primary users: public services. One recommendation highlighted an AI assistant for lesson planning, expected to save over 15 hours of work, showcasing ongoing AI development for the public sector.
-			  </para>
-
+		  <para>
+The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using generative AI (GPT-4-turbo), and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
+		  </para>
+		  While the AI tool demonstrated a high level of accuracy on isolated sentences, the performance did decrease when applied to longer and more complex pieces of writing like the 20-sentence essays and the synthetic pupil essays. This suggests that factors such as increased text length and the presence of multiple, potentially overlapping errors can pose challenges for the error detection pipeline
   <para> 
-As part of this shift, two AI applications are currently in development: student marking tools, designed to provide "tailored feedback" on student work—including handwritten and pictorial submissions—and a lesson plan generator. From published findings, the teachers expressed the AI's instrumental value and the benefits it could bring, such as time-saving.
+	  Two government-sponsored AI applications have reached the testing stage: a student marking tool designed to provide 'tailored feedback' on student work—including handwritten and pictorial submissions—and a lesson plan generator. During user testing, participants recognized the AI’s instrumental value and expressed a willingness to use it again.
   </para>
   <para>
 Both applications leverage generative AI—a term consistent with the DfE's classification of such tools—a subclass of artificial intelligence specifically designed to analyse public data and generate meaningful outputs.
@@ -65,7 +78,7 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 		 <para>
 		 One such application 
 		 </para>
-
+		 <para>
 	 Education and schooling is one of the UK's core public services, with the UK as a whole responsible for over 29,000 schools across England, Scotland, Wales, and Northern Ireland, filled with a workforce that makes up 25% of the UK's 6.12 million total across all sectors.  
 
 	 give a state to show its size and scale. 
@@ -75,12 +88,10 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	 In the government’s proposed initiatives, explicitly mentioned was a direction for teachers to be supported by AI, such as admin tasks. In additional, educators were advised to step-up AI curriculum to students. 
  </para>
  </section>
-
- <section>
- </section>
-
- <bibliography>
+ <bibliography xmlns='http://docbook.org/ns/docbook'>
 	 <title>Bibliography</title> 
+	 <bibliodiv><title>Books</title></bibliodiv>
+
 	 <biblioentry id="pm-ai-speech2025">
 	<author>
         <personname>
@@ -105,7 +116,26 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
     <title>Artificial Intelligence and Healthcare in Scotland</title>
     <publisher>Scottish Parliament Information Centre (SPICe)</publisher>
     <pubdate>25 June 2024</pubdate>
-    <url>https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9</url>
+
+	  <bibliosource class="uri">
+		  <link href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
+			  https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9
+	  </link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry pubwork="webpage" id="govuk-press-release-teachers-ai-tools-homework">
+	  <title>Teachers to get more trustworthy AI tech, helping them mark homework and save time</title>
+	  <pubdate>28 August 2024</pubdate>
+	  <author>
+					 <orgname class="other" otherclass="national-government">
+			  Department for Science, Innovation and Technology
+		  </orgname>
+	  </author>
+	  <bibliosource class="uri">
+		  <link href="https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-generative-tools-learn-from-new-bank-of-lesson-plans-and-curriculums-helping-them-mark-homework-and-save">
+https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-generative-tools-learn-from-new-bank-of-lesson-plans-and-curriculums-helping-them-mark-homework-and-save
+		  </link>
+	  </bibliosource>
   </biblioentry>
   <biblioentry id="forbes-how-ai-fraud-detection">
 	  <authorgroup>
@@ -121,10 +151,14 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	  <publisher>
 		  <publishername>
 		   Forbes Media LLC
-		  <publishername>
+		  </publishername>
 	  </publisher>
 	  <pubdate>1 November 2023</pubdate>
-	  <url>https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/</url>
+	  <bibliosource class="uri">
+		  <link href="https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/">
+			  https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/
+		  </link>
+	  </bibliosource>
   </biblioentry>
   <biblioentry id="bbc-ai-production">
     <authorgroup>
@@ -140,7 +174,7 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	  </publisher>
 	  <pubdate>1 Janurary 2017</pubdate>
 	  <bibliosource class="uri">
-		  <link xlink:href="https://www.bbc.co.uk/rd/projects/ai-production">
+		  <link href="https://www.bbc.co.uk/rd/projects/ai-production">
 https://www.bbc.co.uk/rd/projects/ai-production
 		  </link>
 	  </bibliosource>
@@ -157,11 +191,10 @@ https://www.bbc.co.uk/rd/projects/ai-production
 	  </publisher>
 	  <pubdate>7 December 2023</pubdate>
 	  <bibliosource class="uri">
-		  <link xlink:href="https://www.ibm.com/think/insights/customer-service-future">
+		  <link href="https://www.ibm.com/think/insights/customer-service-future">
 https://www.ibm.com/think/insights/customer-service-future
 		  </link>
 	  </bibliosource>
-	 <biblioentry>		  
  </biblioentry>
  <biblioentry pubwork="webpage" id="stv-teachers-leaving">
 	    <author>
@@ -173,10 +206,10 @@ https://www.ibm.com/think/insights/customer-service-future
 	  <title>Hundreds of new teachers quit profession within five years, figures show</title>
 	  <pubdate>5 Janurary 2024</pubdate>
 	  <bibliosource class="uri">
-		  <link xlink:href="https://news.stv.tv/scotland/hundreds-of-new-teachers-quit-profession-within-five-years-figures-show"></link>
+		  <link href="https://news.stv.tv/scotland/hundreds-of-new-teachers-quit-profession-within-five-years-figures-show"></link>
 	  </bibliosource>
+  </biblioentry>
 	 <biblioentry id="govuk-one-million-ai-teaching-tools">
-		 <biblioentry>
 			 <pubdate>13 January 2025</pubdate>
 			 <authorgroup>
 			  <author>
@@ -203,11 +236,71 @@ https://www.ibm.com/think/insights/customer-service-future
 				 </author>
 			 </authorgroup>
 	  <bibliosource class="uri">
-		  <link xlink:href="https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-to-opportunity">
+		  <link href="https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-to-opportunity">
 https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-to-opportunity
 		  </link>
 	  </bibliosource>
-
-			 </biblioentry>
+	</biblioentry>
+  <biblioentry id="neu-ai-education">
+	  <title>Artificial intelligence in education</title>
+	  <publisher>
+		<publishername>
+				National Education Union
+		</publishername>
+		</publisher>
+	  <bibliosource class="uri">
+	  <link href="https://neu.org.uk/advice/classroom/artificial-intelligence-education">
+		  https://neu.org.uk/advice/classroom/artificial-intelligence-education
+	  </link>
+  </bibliosource>
+  </biblioentry>
+  <biblioentry id="ai-opportunities-action-plan">
+  <title>AI Opportunities Action Plan</title>
+  <author>
+    <orgname class="other" otherclass="national-government">
+      Secretary of State for Science, Innovation and Technology
+    </orgname>
+  </author>
+  <publisher>
+    <orgname class="other" otherclass="national-government">Crown Copyright</orgname>
+  </publisher>
+  <pubdate>13 January 2025</pubdate>
+  <bibliosource class="isbn">
+    <isbn>978-1-5286-5362-6</isbn>
+  </bibliosource>
+    <revnum>CP1241</revnum>
+  <releaseinfo>E03258815 01/25</releaseinfo>
+  </biblioentry>
+ <biblioentry pubwork="webpage" id="skynews-neu-job-loss-fears">
+	    <author>
+		<personname>
+		<firstname>Alexandra</firstname>
+		<surname>Rogers</surname>
+		</personname>
+	    </author>
+	  <title>Teaching unions gear up for fight with Number 10 over AI job-loss fears</title>
+	  <pubdate>17 March 2025</pubdate>
+	  <bibliosource class="uri">
+		  <link href="https://news.sky.com/story/teaching-unions-gear-up-for-fight-with-number-10-over-ai-job-loss-fears-13327798">
+https://news.sky.com/story/teaching-unions-gear-up-for-fight-with-number-10-over-ai-job-loss-fears-13327798
+		  </link>
+	  </bibliosource>
+  </biblioentry>
+  <biblioentry id="dofe-technical-report-ai-use">
+	  <author>
+		  <orgname class="other" otherclass="national-government">Department for Education
+	</orgname>
+        </author>
+	  <title>Use Cases for Generative AI in Education</title>
+	  <subtitle>
+Building a proof of concept for Generative AI feedback and resource generation in education contexts: Technical report
+	  </subtitle>
+  <bibliosource class="isbn">
+	  <isbn>978-1-83870-564-0</isbn>
+  </bibliosource>
+  <pubdate>28 August 2024</pubdate>
+  <revnum>RR1423</revnum>
+  </biblioentry>
  </bibliography>
 </article>
+
