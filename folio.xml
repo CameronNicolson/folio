@@ -17,14 +17,15 @@
  <section id="intro">
  <title>Introduction</title>
  <para>
-	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation linkend="scotgov-spice-ai-healthcare" />
+	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation>[<xref linkend="scotgov-spice-ai-healthcare" />
 		 <citation linkend="forbes-how-ai-fraud-detection" />
 		 <citation linkend="bbc-ai-production" />
-		 <citation linkend="ibm-customer-service-ai" />.
-	 Many organisations are integrating AI into their operations to enhance effeciency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving cars and virtual assistants. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
+		 <citation linkend="ibm-customer-service-ai" />
+		 ]</citatoin>.
+	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving cars and virtual assistants. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
 	 </para>
 	<para>
-		The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <citation linkend="deep-thought-wins" />; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2025, generative AI has accelerated both the development and application of AI, making the technology suitable for most use cases and drawing parallels to the evolution of electricity.
+		The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins">[1]</xref>; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2025, generative AI has accelerated both the development and application of AI, making the technology suitable for most use cases and drawing parallels to the evolution of electricity.
 	</para>
 	<para>
 		While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling a majority of organisations to function with AI. In the United Kingdom, the Government is preparing to secure its stake with AI.
@@ -33,7 +34,7 @@
 			 The Cabinet of the United Kingdom, under both Labour and Conservaative governments, recognised the technological step change and pledged investments in AI development. The Conservative-led government allocated £900 million to various British AI projects, citing economic growth as a key incentive. 
 		 </para>
 		 <para>
-		 In 2025, the government support for AI reached new heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <citation linkend="pm-ai-speech2025"/>. 
+		 In 2025, the government support for AI reached new heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
 	 </para>
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
@@ -87,9 +88,29 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
   </section>
   <section>
 		  </section>
- <bibliography role="serial" version="5.0" xmlns="http://docbook.org/ns/docbook">
+ <bibliography role="serial">
+  <biblioentry xreflabel="1" id="scotgov-spice-ai-healthcare">
+    <citetitle>Artificial Intelligence and Healthcare in Scotland</citetitle>
+    <authorgroup>
+      <author>
+        <orgname>Scottish Parliament Information Centre</orgname>
+      </author>
+    </authorgroup>
+    <publisher>Scottish Parliament Information Centre (SPICe)</publisher>
+    <pubdate>25 June 2024</pubdate>
+
+	  <bibliosource class="uri">
+		  <link href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
+			  https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9
+	  </link>
+	  </bibliosource>
+  </biblioentry>
+ 
+
 	 <title>Bibliography</title> 
 	 <biblioentry id="pm-ai-speech2025">
+		 <citebiblioid>grumpy</citebiblioid>
+	<title>f1.</title>
     <citetitle>PM speech on AI Opportunities Action Plan</citetitle>
 	<author>
         <personname>
@@ -114,24 +135,7 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 https://www.gov.uk/government/speeches/pm-speech-on-ai-opportunities-action-plan-13-january-2025
     </link></bibliosource>
 </biblioentry>
-  <biblioentry id="scotgov-spice-ai-healthcare">
-    <abbrev>SPICe2024</abbrev>
-    <authorgroup>
-      <author>
-        <firstname>Scottish Parliament Information Centre</firstname>
-      </author>
-    </authorgroup>
-    <title>Artificial Intelligence and Healthcare in Scotland</title>
-    <publisher>Scottish Parliament Information Centre (SPICe)</publisher>
-    <pubdate>25 June 2024</pubdate>
-
-	  <bibliosource class="uri">
-		  <link href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
-			  https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9
-	  </link>
-	  </bibliosource>
-  </biblioentry>
-  <biblioentry pubwork="webpage" id="govuk-press-release-teachers-ai-tools-homework">
+ <biblioentry pubwork="webpage" id="govuk-press-release-teachers-ai-tools-homework">
 	  <title>Teachers to get more trustworthy AI tech, helping them mark homework and save time</title>
 	  <pubdate>28 August 2024</pubdate>
 	  <author>
@@ -307,8 +311,7 @@ Building a proof of concept for Generative AI feedback and resource generation i
   </bibliosource>
   <pubdate>28 August 2024</pubdate>
   <revnum>RR1423</revnum>
-  </biblioentry>
-  
+  </biblioentry> 
   <biblioentry pubwork="article" id="ldn-gointerest-kids-ai">
 	  <citetitle>AI gap: 56% of students want to learn with AI, but UK schools lag behind with just 20% having access to AI in the classroom</citetitle>
 	  <corpauthor>
@@ -431,7 +434,7 @@ https://www.bbc.co.uk/news/technology-67872693
     <biblioentry id="charai-safety-updates">
 	    <citetitle>Community Safety Updates</citetitle>
 	    <publisher>Character AI</publisher>
-	    <link>https://blog.character.ai/community-safety-updates/</link>
+	    <link href="https://blog.character.ai/community-safety-    updates/">https://blog.character.ai/community-safety-updates/</link>
     </biblioentry>
     <biblioentry id="nypost-charai-14yo-death">
 	    <pubdate>23 October 2024</pubdate>
@@ -445,7 +448,7 @@ https://www.bbc.co.uk/news/technology-67872693
 			</personname></author>
 	    </authorgroup>
 	    <bibliosource>
-	    <link>
+	    <link href="https://nypost.com/2024/10/23/us-news/florida-boy-14-killed-himself-after-falling-in-love-with-game-of-thrones-a-i-chatbot-lawsuit/">
 	    https://nypost.com/2024/10/23/us-news/florida-boy-14-killed-himself-after-falling-in-love-with-game-of-thrones-a-i-chatbot-lawsuit/
 	    </link>
     </bibliosource>
@@ -471,7 +474,7 @@ https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conser
 		    </link>
 	    </bibliosource>
     </biblioentry>
-    <biblioentry id="deep-thought-wins">
+    <biblioentry xreflabel="hello" xml:id="deep-thought-wins">
      <title>AI Magazine</title>
      <citetitle>Deep Thought Wins Fredkin Intermediate Prize</citetitle>
      <author>
@@ -487,10 +490,11 @@ https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conser
   <pubdate>1989</pubdate>
   <volumenum>10</volumenum>
   <issuenum>2</issuenum>
-  <bibliosource class="issn">
-	  0738-4602
-  </bibliosource>
-  <copyright><holder>AAAI</holder><year>1989></year></copyright>
+  <bibliosource class="issn">0738-4602</bibliosource>
+  <copyright>
+	  <holder>AAAI</holder> 
+	  <year>1989></year>
+  </copyright>
   </biblioentry>
   <biblioentry id="theverge-google-restaurant">
 	  <citetitle>Google’s AI reservation service Duplex is now available in 49 states</citetitle>
