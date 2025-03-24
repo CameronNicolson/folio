@@ -17,15 +17,18 @@
  <section id="intro">
  <title>Introduction</title>
  <para>
-	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation>[<xref linkend="scotgov-spice-ai-healthcare" />
-		 <citation linkend="forbes-how-ai-fraud-detection" />
-		 <citation linkend="bbc-ai-production" />
-		 <citation linkend="ibm-customer-service-ai" />
+	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation>[<xref linkend="scotgov-spice-ai-healthcare" />,
+		 <xref linkend="forbes-how-ai-fraud-detection" />,
+		 <xref linkend="bbc-ai-production" />,
+		 <xref linkend="ibm-customer-service-ai" />
 		 ]</citation>.
-	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving cars and virtual assistants. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
+	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
 	 </para>
 	<para>
-		The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins">[1]</xref>; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2025, generative AI has accelerated both the development and application of AI, making the technology suitable for most use cases and drawing parallels to the evolution of electricity.
+			The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins">[1]</xref>; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2022, the features of ChatGPT reached phenomenal status which directly drove major investment and competition looking to capitalise on generative AI <citation linkend="wired-google-frenzy"></citation>.
+		</para>
+		<para>
+			In 2025, it is evident that the adoption of AI continues to gain momentum across various sectors. As highlighted by McKinsey's global survey <citation linkend="mckinsey-global-ai-survey"><xref linkend="mckinsey-global-ai-survey"></xref></citation>, over three-quarters of organisations report using AI in at least one business function, with the use of generative AI increasing particularly rapidly. Following this widespread initial adoption, the focus for many companies is now increasingly on how to structure their AI initiatives to achieve meaningful financial benefits.
 	</para>
 	<para>
 		While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling a majority of organisations to function with AI. In the United Kingdom, the Government is preparing to secure its stake with AI.
@@ -89,6 +92,7 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
   <section>
 		  </section>
  <bibliography role="serial">
+  <title>Bibliography</title> 
   <biblioentry xreflabel="1" id="scotgov-spice-ai-healthcare">
     <citetitle>Artificial Intelligence and Healthcare in Scotland</citetitle>
     <authorgroup>
@@ -98,16 +102,113 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
     </authorgroup>
     <publisher>Scottish Parliament Information Centre (SPICe)</publisher>
     <pubdate>25 June 2024</pubdate>
-
 	  <bibliosource class="uri">
 		  <link href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
 			  https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9
 	  </link>
 	  </bibliosource>
   </biblioentry>
- 
 
-	 <title>Bibliography</title> 
+  <biblioentry xreflabel="2" id="forbes-how-ai-fraud-detection">
+	  <authorgroup>
+		<author>
+		<personname>
+		  <honorific>Dr</honorific>
+		  <firstname>Jeremy</firstname>
+		  <surname>Nunn</surname>
+		</personname>
+		</author>
+	  </authorgroup>
+	  <title>How AI And Machine Learning Help Detect And Prevent Fraud</title>
+	  <publisher>
+		  <publishername>
+		   Forbes Media LLC
+		  </publishername>
+	  </publisher>
+	  <pubdate>1 November 2023</pubdate>
+	  <bibliosource class="uri">
+		  <link href="https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/">
+			  https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/
+		  </link>
+	  </bibliosource>
+  </biblioentry>
+
+  <biblioentry xreflabel="3" id="bbc-ai-production">
+    <authorgroup>
+      <author>
+        <orgname>British Broadcasting Corporation</orgname>
+      </author>
+    </authorgroup>
+	  <publisher>
+		  <publishername>
+                   British Broadcasting Corporation
+		  </publishername>
+	  </publisher>
+	  <pubdate>1 Janurary 2017</pubdate>
+	  <bibliosource class="uri">
+		  <link href="https://www.bbc.co.uk/rd/projects/ai-production">
+https://www.bbc.co.uk/rd/projects/ai-production
+		  </link>
+	  </bibliosource>
+  </biblioentry>
+
+ <biblioentry xreflabel="4" id="ibm-customer-service-ai">
+      <corpauthor>
+        <trademark>IBM</trademark>
+	International Business Machines Corporation
+      </corpauthor>
+	  <publisher>
+		  <publishername>
+			  International Business Machines Corporation
+		  </publishername>
+	  </publisher>
+	  <pubdate>7 December 2023</pubdate>
+	  <bibliosource class="uri">
+		  <link href="https://www.ibm.com/think/insights/customer-service-future">
+https://www.ibm.com/think/insights/customer-service-future
+		  </link>
+	  </bibliosource>
+ </biblioentry>
+
+ <biblioentry xml:id="wired-google-frenzy">
+  <citetitle>Inside Google’s Two-Year Frenzy to Catch Up With OpenAI</citetitle>
+  <pubdate>22 March 2025</pubdate>
+  <authorgroup>
+    <author>
+      <firstname>Paresh</firstname>
+      <surname>Dave</surname>
+    </author>
+    <author>
+      <firstname>Arielle</firstname>
+      <surname>Pardes</surname>
+    </author>
+  </authorgroup>
+  <publisher>
+    <publishername>WIRED</publishername>
+  </publisher>
+  <bibliosource class="uri">
+	  <link href="https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/">
+		  https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/?utm_source=chatgpt.com
+	  </link>
+  </bibliosource>
+</biblioentry>
+
+<biblioentry id="mckinsey-global-ai-survey">
+  <citetitle>The state of AI: How organizations are rewiring to capture value</citetitle>
+  <author>
+    <orgname>McKinsey and Company</orgname>
+  </author>
+  <publisher>
+	  <publishername>McKinsey and Company</publishername>
+  </publisher>
+  <pubdate>12 March 2025</pubdate>
+  <bibliosource>
+	  <link xlink:href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">
+https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+	  </link>
+  </bibliosource>
+</biblioentry>
+
 	 <biblioentry id="pm-ai-speech2025">
 		 <citebiblioid>grumpy</citebiblioid>
 	<title>f1.</title>
@@ -149,64 +250,6 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		  </link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry id="forbes-how-ai-fraud-detection">
-	  <authorgroup>
-		<author>
-		<personname>
-		  <honorific>Dr</honorific>
-		  <firstname>Jeremy</firstname>
-		  <surname>Nunn</surname>
-		</personname>
-		</author>
-	  </authorgroup>
-	  <title>How AI And Machine Learning Help Detect And Prevent Fraud</title>
-	  <publisher>
-		  <publishername>
-		   Forbes Media LLC
-		  </publishername>
-	  </publisher>
-	  <pubdate>1 November 2023</pubdate>
-	  <bibliosource class="uri">
-		  <link href="https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/">
-			  https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/
-		  </link>
-	  </bibliosource>
-  </biblioentry>
-  <biblioentry id="bbc-ai-production">
-    <authorgroup>
-      <author>
-        <orgname>British Broadcasting Corporation</orgname>
-      </author>
-    </authorgroup>
-	  <publisher>
-		  <publishername>
-                   British Broadcasting Corporation
-		  </publishername>
-	  </publisher>
-	  <pubdate>1 Janurary 2017</pubdate>
-	  <bibliosource class="uri">
-		  <link href="https://www.bbc.co.uk/rd/projects/ai-production">
-https://www.bbc.co.uk/rd/projects/ai-production
-		  </link>
-	  </bibliosource>
-  </biblioentry>
- <biblioentry id="ibm-customer-service-ai">
-      <corpauthor>
-        <trademark>IBM</trademark>
-	International Business Machines Corporation
-      </corpauthor>
-	  <publisher>
-		  <publishername>
-			  International Business Machines Corporation
-		  </publishername>
-	  </publisher>
-	  <pubdate>7 December 2023</pubdate>
-	  <bibliosource class="uri">
-		  <link href="https://www.ibm.com/think/insights/customer-service-future">
-https://www.ibm.com/think/insights/customer-service-future
-		  </link>
-	  </bibliosource>
- </biblioentry>
  <biblioentry pubwork="webpage" id="stv-teachers-leaving">
 	    <author>
 	    <orgname class="corporation">
