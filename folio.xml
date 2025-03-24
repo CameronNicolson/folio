@@ -11,7 +11,7 @@
   <surname>Nicolson</surname>
   </personname>
  </author>
-   <pubdate>30 April 2025</pubdate>
+   <pubdate>April 2025</pubdate>
  </info>
 
  <section id="intro">
@@ -23,11 +23,11 @@
 		 <citation linkend="ibm-customer-service-ai" />.
 	 Many organisations are integrating AI into their operations to enhance effeciency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving cars and virtual assistants. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
 	 </para>
-	 <para>
-	 to AI is an emerging technogy and produced bundles of new applications and markets, such as self-driving vehicles.  Histronically speaking, AI has spent a large part of its life being unrefined and lacking in pratical use, once commonly existance as a theorised standard.  
-	 </para>
-		 <para>
-		AI has been in development for over 70 years, emerging around the same time as the formal establishment of Computer Science as an academic discipline. While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling market leaders to embrace AI, the UK Government is one such stakeholder.
+	<para>
+		The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <citation linkend="deep-thought-wins" />; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2025, generative AI has accelerated both the development and application of AI, making the technology suitable for most use cases and drawing parallels to the evolution of electricity.
+	</para>
+	<para>
+		While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling a majority of organisations to function with AI. In the United Kingdom, the Government is preparing to secure its stake with AI.
 		 </para>
 		 <para>
 			 The Cabinet of the United Kingdom, under both Labour and Conservaative governments, recognised the technological step change and pledged investments in AI development. The Conservative-led government allocated £900 million to various British AI projects, citing economic growth as a key incentive. 
@@ -86,14 +86,7 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
   </para>
   </section>
   <section>
-		 <para>
-	 Education and schooling is one of the UK's core public services, with the UK as a whole responsible for over 29,000 schools across England, Scotland, Wales, and Northern Ireland, filled with a workforce that makes up 25% of the UK's 6.12 million total across all sectors.  
-	 give a state to show its size and scale. 
-		The plan for the UK Government is to implement the AI oppurtunities Action Plan, set out by Matt Clifford, which contains 50 recommendations 
-	 The government has commited to take forward the AI Oppurtunities Action Plan and its 50 recommendations. The action plan details a number of key industries, including healthcare, private 
-	 In the government’s proposed initiatives, explicitly mentioned was a direction for teachers to be supported by AI, such as admin tasks. In additional, educators were advised to step-up AI curriculum to students. 
- </para>
- </section>
+		  </section>
  <bibliography role="serial" version="5.0" xmlns="http://docbook.org/ns/docbook">
 	 <title>Bibliography</title> 
 	 <biblioentry id="pm-ai-speech2025">
@@ -478,5 +471,44 @@ https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conser
 		    </link>
 	    </bibliosource>
     </biblioentry>
+    <biblioentry id="deep-thought-wins">
+     <title>AI Magazine</title>
+     <citetitle>Deep Thought Wins Fredkin Intermediate Prize</citetitle>
+     <author>
+    <personname>
+      <firstname>Hans</firstname>
+      <surname>Berliner</surname>
+    </personname>
+  </author>
+  <publisher>
+    <publishername>Association for the Advancement of Artificial Intelligence</publishername>
+    <address><country>US</country></address>
+  </publisher>
+  <pubdate>1989</pubdate>
+  <volumenum>10</volumenum>
+  <issuenum>2</issuenum>
+  <bibliosource class="issn">
+	  0738-4602
+  </bibliosource>
+  <copyright><holder>AAAI</holder><year>1989></year></copyright>
+  </biblioentry>
+  <biblioentry id="theverge-google-restaurant">
+	  <citetitle>Google’s AI reservation service Duplex is now available in 49 states</citetitle>
+	  <pubdate>1 April 2021</pubdate>
+     <author>
+    <personname>
+      <firstname>James</firstname>
+      <surname>Vincent</surname>
+    </personname>
+  </author>
+	  <publisher>
+           <publishername>The Verge</publishername>
+	  </publisher>
+	  <bibliosource pubwork="article">
+		  <link href="https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availability-49-us-states">
+https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availability-49-us-states
+		  </link>
+	  </bibliosource>
+  </biblioentry>
  </bibliography>
 </article>
