@@ -41,36 +41,39 @@
   <para>
 The primary benefit of generative AI is its efficiency. It provides users with instant answers to their questions and can generate entire outputs, such as spreadsheets or programming code. This allows organizations to free up labor from repetitive tasks and focus on more critical work.
   </para>
+  <para>
 	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
   </para>
   </section>
   <section>
+
+	  <title>AI in the public sector</title>
 		 <para>
-			 The Cabinets of the United Kingdom, under both Labour and Conservaative governments, recognised this technological shift and pledged significant investments. The Conservative-led government, the current predecessor, allocated £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increased spending on related research, and backed the implementation of supercomputers to help with the intensive computational tasks of AI <citation linkend="govuk-supercomputers" />. 
+			 The Cabinets of the United Kingdom, under both Labour and Conservative governments, recognised this technological shift and pledged significant investments. The Conservative-led government, allocated £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increased spending on related research, and backed the implementation of supercomputers to help with the intensive computational tasks of AI <citation linkend="govuk-supercomputers" />. 
 		 </para>
 		 <para>
-			 After taking office in 2024, the Labour government swiftly moved to cancel Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Shortly after, the Prime Minister announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private secure investment and commited more spending to help realise this vision, signalling a strong shift in policy. Prime Minster Keir Starmer, speaking on behalf of the government, declared that Britain aims to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
+			 After taking office in 2024, the Labour government swiftly moved to cancel Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Shortly after, the Prime Minister announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private investments and committed more spending to help realise this vision, signalling a strong shift in policy. Prime Minster Keir Starmer, speaking on behalf of the government, declared that Britain aims to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
 		 </para>
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
 	 </para>
 <para>
-Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
+Education and schooling is one of the UK's core public services, with over 29,000 schools across the entire UK. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
 In recent years, however, the attractiveness of teaching has fallen across Britain and working conditions have worsened.
 		  Within Scotland, staffing saw a steady increase in the pupil-teacher ratio, which currently stands at 13.3 students per teacher. The compensation of teachers is at risk too, with a rise in teachers leaving before completing their five-year tenure, according to the latest figures <citation linkend="stv-teachers-leaving" />. 
 		  </para>
 <para>
-England faces a similar situation where they contend with a massive teacher recruitment shortage, and further dissatisfaction from qualified teachers, with 90% of qualified teachers saying they have considered leaving their jobs due to high workloads. These reports came from the National Foundation for Educational Research (NFER). 
+England faces a similar situation with a massive teacher recruitment shortage forecasted, and for the teachers currently employed, job dissatisfaction is severe, with 90% saying they have considered leaving their jobs due to high workloads. These reports came from the National Foundation for Educational Research (NFER). 
 </para>
 <para>
 The government aimed to tackle the situation by providing £1 million <citation linkend='govuk-one-million-ai-teaching-tools' /> in funding to 16 tech companies to develop AI teaching tools. This investment has so far yielded tangible prototypes. The initiative is guided by the AI Opportunities Action Plan <citation linkend='ai-opportunities-action-plan' />, devised by the government's AI adviser, Matt Clifford. According to the document, the newly created AI deployment is intended to prioritise public services as its primary customer. Additionally, the government has acknowledged that AI could replace certain civil service jobs, estimating significant reductions in the workforce over time <citation linkend="skynews-civil" />.
 </para>
 <para>
-The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposed any move to prioritize AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools could devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
-Responding to the news, the NEU's general secretary criticized the exclusion of teaching experts from rollout decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
+The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposes moves to prioritise AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
+Responding to the news, the NEU's general secretary criticised the exclusion of teaching experts from roll-out decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
 </para>
 		  <para>
-The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using generative AI (GPT-4-turbo), and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
+The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using GPT-4-turbo, and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
 		  </para>
 		  <para>
 		In the case of young students, four out of five teenagers (ages 13–17) engage with generative AI <citation linkend="ofcom-kids-embrace-ai" />, and over half express interest in using AI for studying, according to recent reports <citation linkend="ldn-gointerest-kids-ai" />. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat <citation linkend="bbc-scot-cheating-ai" />.
@@ -94,14 +97,7 @@ The risks associated with generative AI, as documented by experts, reinforce con
 Both applications leverage generative AI—a term consistent with the DfE's classification of such tools—a subclass of artificial intelligence specifically designed to analyse public data and generate meaningful outputs.
   </para>
   </section>
-  <section>
-	  <title>What is Generative AI?</title>
-	  <para>Generative AI, also referred to as GenAI, creates content, commonly text and audio, based on inputs by the users. To create useful content, the AI relies on deep learning models, 
-
-	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
-  </para>
-  </section>
- <bibliography role="serial">
+   <bibliography role="serial">
   <title>Bibliography</title> 
   <biblioentry xreflabel="1" id="scotgov-spice-ai-healthcare">
     <citetitle>Artificial Intelligence and Healthcare in Scotland</citetitle>
