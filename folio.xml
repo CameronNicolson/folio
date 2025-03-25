@@ -30,31 +30,43 @@
 		<para>
 			In 2025, it is evident that the adoption of AI continues to gain momentum across various sectors. As highlighted by McKinsey's global survey <citation linkend="mckinsey-global-ai-survey"><xref linkend="mckinsey-global-ai-survey"></xref></citation>, over three-quarters of organisations report using AI in at least one business function, with the use of generative AI increasing particularly rapidly. Following this widespread initial adoption, the focus for many companies is now increasingly on how to structure their AI initiatives to achieve meaningful financial benefits.
 	</para>
+</section>
+ <section>
+  <info>
+	  <title>What is Generative AI?</title>
+  </info>
+  <para>
+	  Generative AI, also referred to as GenAI, creates content, commonly text and audio, based on inputs by the users <citatoin linkend="ibm-what-is-gen-ai" />. Generative AI is good at understanding the natural way people talk to each other, it then processes the conversation and uses pattern matching to attempt to reply the best way possible. This process relies on a technique called deep learning models. 
+  </para>
+  <para>
+The primary benefit of generative AI is its efficiency. It provides users with instant answers to their questions and can generate entire outputs, such as spreadsheets or programming code. This allows organizations to free up labor from repetitive tasks and focus on more critical work.
+  </para>
+	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
+  </para>
+  </section>
+  <section>
 		 <para>
 			 The Cabinets of the United Kingdom, under both Labour and Conservaative governments, recognised this technological shift and pledged significant investments. The Conservative-led government, the current predecessor, allocated £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increased spending on related research, and backed the implementation of supercomputers to help with the intensive computational tasks of AI <citation linkend="govuk-supercomputers" />. 
 		 </para>
 		 <para>
 			 After taking office in 2024, the Labour government swiftly moved to cancel Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Shortly after, the Prime Minister announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private secure investment and commited more spending to help realise this vision, signalling a strong shift in policy. Prime Minster Keir Starmer, speaking on behalf of the government, declared that Britain aims to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
 		 </para>
-		 <para>
-			 When Labour became the new government in 2024, they closely followed office by cancelling Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Then the government came out pushing their AI support to higher heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation. and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
-	 </para>
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
 	 </para>
-		  <para>
-	 In recent years, the attractivness of teaching has fallen across Britain and working conditions have changed.
-	 Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
-			  Within Scotland, staffing saw a steady increase in the pupil-teacher ratio, which currently stands at 13.3 students per teacher. Together with a rise in teachers leaving before completing their five-year tenure, according to the latest figures <citation linkend="stv-teachers-leaving" />. 
+<para>
+Education and schooling is one of the UK's core public services, with over 29,000 schools across England, Scotland, Wales, and Northern Ireland. The sector employs around 1.23 million people, making up approximately 20% of the UK’s 6.12 million public sector workforce.	
+In recent years, however, the attractiveness of teaching has fallen across Britain and working conditions have worsened.
+		  Within Scotland, staffing saw a steady increase in the pupil-teacher ratio, which currently stands at 13.3 students per teacher. The compensation of teachers is at risk too, with a rise in teachers leaving before completing their five-year tenure, according to the latest figures <citation linkend="stv-teachers-leaving" />. 
 		  </para>
-		  <para>
-		 England faces a similar situation with 90% of teachers saying they have considered leaving their jobsdue ot high workloads, and contending with recruitment shortages. These reports come from the National Foundation for Educational Research (NFER). 
-		  </para>
-		  <para>
-			  The government aimed to tackle the situation by giving £1 million <citation linkend="govuk-one-million-ai-teaching-tools" /> in funding to 16 tech companies to build AI teaching tools. This investment has yielded tangable prototypes to date. The initiative is guided by the AI Opportunities Action Plan <citation linkend="ai-opportunities-action-plan" />, devised by the government's AI adviser, Matt Clifford. According to the document, with the newly created AI deployment, public services should be its primary customer. Consequently, the government is positioning itself as both a mass producer and user of AI.
-	 </para>
-	 <para>
-			 The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposed any move to prioritize AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools could devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
+<para>
+England faces a similar situation where they contend with a massive teacher recruitment shortage, and further dissatisfaction from qualified teachers, with 90% of qualified teachers saying they have considered leaving their jobs due to high workloads. These reports came from the National Foundation for Educational Research (NFER). 
+</para>
+<para>
+The government aimed to tackle the situation by providing £1 million <citation linkend='govuk-one-million-ai-teaching-tools' /> in funding to 16 tech companies to develop AI teaching tools. This investment has so far yielded tangible prototypes. The initiative is guided by the AI Opportunities Action Plan <citation linkend='ai-opportunities-action-plan' />, devised by the government's AI adviser, Matt Clifford. According to the document, the newly created AI deployment is intended to prioritise public services as its primary customer. Additionally, the government has acknowledged that AI could replace certain civil service jobs, estimating significant reductions in the workforce over time <citation linkend="skynews-civil" />.
+</para>
+<para>
+The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposed any move to prioritize AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools could devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
 Responding to the news, the NEU's general secretary criticized the exclusion of teaching experts from rollout decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
 </para>
 		  <para>
@@ -89,8 +101,6 @@ Both applications leverage generative AI—a term consistent with the DfE's clas
 	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
   </para>
   </section>
-  <section>
-		  </section>
  <bibliography role="serial">
   <title>Bibliography</title> 
   <biblioentry xreflabel="1" id="scotgov-spice-ai-healthcare">
@@ -209,6 +219,30 @@ https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
   </bibliosource>
 </biblioentry>
 
+<biblioentry xml:id="ibm-what-is-gen-ai">
+	<citetitle>What is generative AI?</citetitle>
+	<pubdate>22 March 2024</pubdate>
+	<authorgroup>
+	<author>
+		<personname>
+			<firstname>Mark</firstname>
+			<surname>Scapicchio</surname>
+		</personname>
+	</author>
+	<author>
+		<personname>
+			<firstname>Cole</firstname>
+			<surname>Stryker</surname>
+		</personname>
+	</author>
+	</authorgroup>
+	<bibliosource>
+	<link xlink:href="https://www.ibm.com/think/topics/generative-ai">
+		https://www.ibm.com/think/topics/generative-ai
+	</link>
+	</bibliosource>
+</biblioentry>
+
 <biblioentry xml:id="govuk-supercomputers">
 	<citetitle>Technology Secretary announces investment boost making British AI supercomputing 30 times more powerful</citetitle>
 	<pubdate>1 November 2023</pubdate>
@@ -307,7 +341,8 @@ https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 https://www.gov.uk/government/speeches/pm-speech-on-ai-opportunities-action-plan-13-january-2025
     </link></bibliosource>
 </biblioentry>
- <biblioentry pubwork="webpage" id="govuk-press-release-teachers-ai-tools-homework">
+
+ <biblioentry pubwork="article" id="govuk-press-release-teachers-ai-tools-homework">
 	  <title>Teachers to get more trustworthy AI tech, helping them mark homework and save time</title>
 	  <pubdate>28 August 2024</pubdate>
 	  <author>
@@ -321,6 +356,7 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		  </link>
 	  </bibliosource>
   </biblioentry>
+
  <biblioentry pubwork="webpage" id="stv-teachers-leaving">
 	    <author>
 	    <orgname class="corporation">
@@ -366,6 +402,17 @@ https://www.gov.uk/government/news/ai-teacher-tools-set-to-break-down-barriers-t
 		  </link>
 	  </bibliosource>
 	</biblioentry>
+
+	<biblioentry id="skynews-civil">
+		<citetitle>'Almost certain' civil service staff numbers will be cut in AI efficiency drive, minister says</citetitle>
+		<publisher>
+			<publishername>Sky News</publishername>
+		</publisher>
+		<bibliosource>
+			<link xlink:href="https://news.sky.com/story/almost-certain-civil-service-staff-numbers-will-be-cut-in-ai-efficiency-drive-minister-says-13327407">https://news.sky.com/story/almost-certain-civil-service-staff-numbers-will-be-cut-in-ai-efficiency-drive-minister-says-13327407</link>
+		</bibliosource>
+	</biblioentry>
+
   <biblioentry id="neu-ai-education">
 	  <title>Artificial intelligence in education</title>
 	  <publisher>
