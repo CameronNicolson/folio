@@ -25,19 +25,19 @@
 	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
 	 </para>
 	<para>
-			The development of AI began over 70 years, throughout its history, it has acheived spectauclar feats, such as: challenging humans in chess and defeating a grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins">[1]</xref>; Making phone calls with natural-sounding synthetic voices, booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2022, the features of ChatGPT reached phenomenal status which directly drove major investment and competition looking to capitalise on generative AI <citation linkend="wired-google-frenzy"></citation>.
+			The development of AI began over 70 years <citation linkend="ai-history" />, throughout its history, it has achieved spectacular feats, including challenging humans in chess and defeating a Grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins" />; making phone calls with natural-sounding synthetic voices, such as booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2022, ChatGPT’s ability to engage in human-like conversations with remarkable intelligence propelled it to phenomenal status, driving major investment and competition in generative AI <citation linkend="wired-google-frenzy"></citation>.
 		</para>
 		<para>
 			In 2025, it is evident that the adoption of AI continues to gain momentum across various sectors. As highlighted by McKinsey's global survey <citation linkend="mckinsey-global-ai-survey"><xref linkend="mckinsey-global-ai-survey"></xref></citation>, over three-quarters of organisations report using AI in at least one business function, with the use of generative AI increasing particularly rapidly. Following this widespread initial adoption, the focus for many companies is now increasingly on how to structure their AI initiatives to achieve meaningful financial benefits.
 	</para>
-	<para>
-		While AI has experienced steady growth, today’s emerging trends have accelerated both its development and application, compelling a majority of organisations to function with AI. In the United Kingdom, the Government is preparing to secure its stake with AI.
+		 <para>
+			 The Cabinets of the United Kingdom, under both Labour and Conservaative governments, recognised this technological shift and pledged significant investments. The Conservative-led government, the current predecessor, allocated £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increased spending on related research, and backed the implementation of supercomputers to help with the intensive computational tasks of AI <citation linkend="govuk-supercomputers" />. 
 		 </para>
 		 <para>
-			 The Cabinet of the United Kingdom, under both Labour and Conservaative governments, recognised the technological step change and pledged investments in AI development. The Conservative-led government allocated £900 million to various British AI projects, citing economic growth as a key incentive. 
+			 After taking office in 2024, the Labour government swiftly moved to cancel Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Shortly after, the Prime Minister announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private secure investment and commited more spending to help realise this vision, signalling a strong shift in policy. Prime Minster Keir Starmer, speaking on behalf of the government, declared that Britain aims to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
 		 </para>
 		 <para>
-		 In 2025, the government support for AI reached new heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
+			 When Labour became the new government in 2024, they closely followed office by cancelling Edinburgh University's supercomputer project <citation linkend="bbc-edinburgh-shelved" />. Then the government came out pushing their AI support to higher heights when the Prime Minister announced initiatives to position AI as a central pillar of the UK's economic transformation. and the securement of £14 billion worth of investments from the private sector. Keir Starmer, speaking on behalf of his government, declared Britain's ambition to become "one of the great AI superpowers" <xref linkend="pm-ai-speech2025" endterm="pm-ai-speech2025_title" />. 
 	 </para>
 	 <para>
 		 Alongside the announced investments, the Prime Minister stated that the government's strategy to embrace AI would "improve public services" and, in turn, transform the lives of working groups, with a specific focus on teachers. Given that teachers make up a large portion of public employees in the UK, this example was an important and relevant point to highlight, especially as public schooling faces increasing challenges. 
@@ -208,6 +208,77 @@ https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 	  </link>
   </bibliosource>
 </biblioentry>
+
+<biblioentry xml:id="govuk-supercomputers">
+	<citetitle>Technology Secretary announces investment boost making British AI supercomputing 30 times more powerful</citetitle>
+	<pubdate>1 November 2023</pubdate>
+	<publisher>
+		<publishername>UK Government</publishername>
+	</publisher>
+	<bibliosource class="uri">
+		<link href="https://www.gov.uk/government/news/technology-secretary-announces-investment-boost-making-british-ai-supercomputing-30-times-more-powerful">https://www.gov.uk/government/news/technology-secretary-announces-investment-boost-making-british-ai-supercomputing-30-times-more-powerful</link>
+	</bibliosource>
+</biblioentry>
+
+<biblioentry xml:id="govuk-invest-ai-taskforce">
+	<citetitle>Initial £100 million for expert taskforce to help UK build and adopt next generation of safe AI</citetitle>
+	<pubdate>24 April 2023</pubdate>
+	<authorgroup>
+        <author><orgname>Department for Science, Innovation and Technology</orgname></author>
+	<author>
+        <personname>
+		<firstname>Michelle</firstname>
+		<surname>Donelan</surname>
+	</personname>
+	</author>
+	<author>
+        <personname>
+		<firstname>Rishi</firstname>
+		<surname>Sunak</surname>
+	</personname>
+	</author>
+
+	</authorgroup>
+	<bibliosource>
+         <link href="https://www.gov.uk/government/news/initial-100-million-for-expert-taskforce-to-help-uk-build-and-adopt-next-generation-of-safe-ai">
+	https://www.gov.uk/government/news/initial-100-million-for-expert-taskforce-to-help-uk-build-and-adopt-next-generation-of-safe-ai
+	 </link>
+	</bibliosource>
+</biblioentry>
+
+<biblioentry xml:id="ai-history">
+	<citetitle>History of artificial intelligence (AI)</citetitle>
+	<pubdate>2025</pubdate>
+	<publisher>
+	<publishername>
+		Encyclopædia Britannica Inc
+	</publishername>
+	</publisher>
+	<bibliosource class="uri">
+		<link href="https://www.britannica.com/science/history-of-artificial-intelligence">
+			https://www.britannica.com/science/history-of-artificial-intelligence
+		</link>
+	</bibliosource>
+</biblioentry>
+
+<biblioentry xml:id="bbc-edinburgh-shelved">
+	<citetitle>Government shelves £1.3bn UK tech and AI plans</citetitle>
+	<pubdate>2 August 2024</pubdate>
+	<author>
+		<personname>
+			<firstname>Zoe</firstname>
+			<surname>Kleinman</surname>
+		</personname>
+	</author>
+	<publisher>
+        <publishername>British Broadcasting Corporation</publishername>
+	</publisher>
+	<bibliosource class="uri">
+		<link href="https://www.bbc.co.uk/news/articles/cyx5x44vnyeo">
+			https://www.bbc.co.uk/news/articles/cyx5x44vnyeo
+		</link>
+	</bibliosource>
+	</biblioentry>
 
 	 <biblioentry id="pm-ai-speech2025">
 		 <citebiblioid>grumpy</citebiblioid>
