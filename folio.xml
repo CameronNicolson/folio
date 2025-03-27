@@ -11,7 +11,7 @@
   <surname>Nicolson</surname>
   </personname>
  </author>
-   <pubdate>April 2025</pubdate>
+   <pubdate>28 March 2025</pubdate>
  </info>
 
  <section id="intro">
@@ -22,13 +22,14 @@
 		 <xref linkend="bbc-ai-production" />,
 		 <xref linkend="ibm-customer-service-ai" />
 		 ]</citation>.
-	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
+	 Many organisations are integrating AI into their operations to enhance efficiency and productivity. Additionally, new applications and markets have emerged, in part due to AI, such as self-driving cars. AI has gone mainstream, its effect are being felt by most people, whether they are aware of it or not.
 	 </para>
 	<para>
-			The development of AI began over 70 years <citation linkend="ai-history" />, throughout its history, it has achieved spectacular feats, including challenging humans in chess and defeating a Grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins" />; making phone calls with natural-sounding synthetic voices, such as booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. In 2022, ChatGPT’s ability to engage in human-like conversations with remarkable intelligence propelled it to phenomenal status, driving major investment and competition in generative AI <citation linkend="wired-google-frenzy"></citation>.
+			The development of AI began over 70 years <citation linkend="ai-history" />, throughout its history, it has achieved spectacular feats, including challenging humans in chess and defeating a Grandmaster in 1988 <xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins" />; making phone calls with natural-sounding synthetic voices, such as booking a restaurant table during a live event in 2018 <citation linkend="theverge-google-restaurant" />. Then in 2022, ChatGPT’s ability to engage in human-like conversations, matched with remarkable intelligence, propelled it to phenomenal status, driving major investment and competition in generative AI <citation linkend="wired-google-frenzy"></citation>.
 		</para>
 		<para>
-			In 2025, it is evident that the adoption of AI continues to gain momentum across various sectors. As highlighted by McKinsey's global survey <citation linkend="mckinsey-global-ai-survey"><xref linkend="mckinsey-global-ai-survey"></xref></citation>, over three-quarters of organisations report using AI in at least one business function, with the use of generative AI increasing particularly rapidly. Following this widespread initial adoption, the focus for many companies is now increasingly on how to structure their AI initiatives to achieve meaningful financial benefits.
+Generative AI has gained rapid adoption, impressing both users and businesses. The current focus is now on its successful integration, as well as the challenges of introducing AI safely and productively.
+As highlighted by McKinsey's global survey <citation linkend="mckinsey-global-ai-survey"><xref linkend="mckinsey-global-ai-survey"></xref></citation>, over three-quarters of organisations report using AI in at least one business function, with the use of generative AI increasing particularly rapidly. Following this widespread initial adoption, the focus for many companies is now increasingly on how to structure their AI initiatives to achieve meaningful financial benefits.
 	</para>
 </section>
  <section>
@@ -36,17 +37,13 @@
 	  <title>What is Generative AI?</title>
   </info>
   <para>
-	  Generative AI, also referred to as GenAI, creates content, commonly text and audio, based on inputs by the users <citatoin linkend="ibm-what-is-gen-ai" />. Generative AI is good at understanding the natural way people talk to each other, it then processes the conversation and uses pattern matching to attempt to reply the best way possible. This process relies on a technique called deep learning models. 
+Generative AI, also referred to as GenAI, instantly generates content on demand, fulfilling entire user requests, such as "Make me a short film with pirates in space." When responding to user prompts, Generative AI analyses patterns in human language using deep learning and probability models to generate the most appropriate response.
   </para>
   <para>
 The primary benefit of generative AI is its efficiency. It provides users with instant answers to their questions and can generate entire outputs, such as spreadsheets or programming code. This allows organizations to free up labor from repetitive tasks and focus on more critical work.
   </para>
-  <para>
-	  artificial intelligence is trained on vast datasets mostly to favour accuracy of facts, diverse viewpoints and quality of the responses. LLMs can be thought as speaking to someone who has studied to become an expert in a field, more often than not, experts give insightful answers on their specialised subject compared with others. 
-  </para>
   </section>
   <section>
-
 	  <title>AI in the public sector</title>
 		 <para>
 			 The Cabinets of the United Kingdom, under both Labour and Conservative governments, recognised this technological shift and pledged significant investments. The Conservative-led government, allocated £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increased spending on related research, and backed the implementation of supercomputers to help with the intensive computational tasks of AI <citation linkend="govuk-supercomputers" />. 
@@ -66,12 +63,15 @@ In recent years, however, the attractiveness of teaching has fallen across Brita
 England faces a similar situation with a massive teacher recruitment shortage forecasted, and for the teachers currently employed, job dissatisfaction is severe, with 90% saying they have considered leaving their jobs due to high workloads. These reports came from the National Foundation for Educational Research (NFER). 
 </para>
 <para>
-The government aimed to tackle the situation by providing £1 million <citation linkend='govuk-one-million-ai-teaching-tools' /> in funding to 16 tech companies to develop AI teaching tools. This investment has so far yielded tangible prototypes. The initiative is guided by the AI Opportunities Action Plan <citation linkend='ai-opportunities-action-plan' />, devised by the government's AI adviser, Matt Clifford. According to the document, the newly created AI deployment is intended to prioritise public services as its primary customer. Additionally, the government has acknowledged that AI could replace certain civil service jobs, estimating significant reductions in the workforce over time <citation linkend="skynews-civil" />.
+The government aimed to tackle the situation by providing £1 million <citation linkend='govuk-one-million-ai-teaching-tools' /> in funding to develop AI teaching tools. This investment has so far yielded tangible prototypes. The initiative is guided by the AI Opportunities Action Plan <citation linkend='ai-opportunities-action-plan' />, devised by the government's AI adviser, Matt Clifford. According to the document, the newly created AI deployment is intended to prioritise public services as its primary customer. Additionally, the government has acknowledged that AI could replace certain civil service jobs, estimating significant reductions in the workforce over time <citation linkend="skynews-civil" />.
 </para>
 <para>
-The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposes moves to prioritise AI technologies at the expense of teacher employment, citing real concerns over potential job losses. They also argued that such tools devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
-Responding to the news, the NEU's general secretary criticised the exclusion of teaching experts from roll-out decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
+The National Education Union (NEU) <citation linkend="neu-ai-education" /> opposes moves to prioritise AI technologies at the expense of teacher employment, citing real concerns over weakening job security. They also argued that such tools devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. 
+Responding to the Prime Minister's speech, the NEU's general secretary criticised the exclusion of teaching experts from roll-out decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears" />.
 </para>
+</section>
+<section>
+	<title>Current AI tools in practise</title>
 		  <para>
 The proof-of-concept AI tool, developed by Faculty for the Department of Education <citation linkend="dofe-technical-report-ai-use" />, explored the use of generative AI in evaluating lower-level English literacy material. It successfully provided feedback using GPT-4-turbo, and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release <citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
 		  </para>
@@ -79,23 +79,32 @@ The proof-of-concept AI tool, developed by Faculty for the Department of Educati
 		In the case of young students, four out of five teenagers (ages 13–17) engage with generative AI <citation linkend="ofcom-kids-embrace-ai" />, and over half express interest in using AI for studying, according to recent reports <citation linkend="ldn-gointerest-kids-ai" />. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat <citation linkend="bbc-scot-cheating-ai" />.
 		  </para>
 		  <para>
-Artificial intelligence is already used in classrooms around the country, enhancing the learning environment. At Tor Bank, a special needs school, AI has been used to help students communicate and create in new ways. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
+Artificial intelligence is already used in classrooms around the country, enhancing children's learning. At Tor Bank, a special needs school, AI has been used to help students communicate and be more creative. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
 		  </para>
 	  <para>
-		  Moreover, David Game College designed its GCSE course to be "teacherless," <citation linkend="skynews-teacherless-class" /> where teenagers engage in question-and-answer sessions with AI-powered Adaptive Learner systems <citation linkend="david-game-college-coursepage" />. The scores from these sessions determine which coursework is flagged by a virtual tutor.
+		  Moreover, David Game College designed a GCSE course to be "teacherless," <citation linkend="skynews-teacherless-class" /> where teenagers engage in one-on-one sessions with tech. Their AI-powered Adaptive Learner systems <citation linkend="david-game-college-coursepage" /> scores from these sessions to determine which coursework is flagged by a virtual tutor.
 		  </para>
 		  <para>
-			  However, some criticisms of AI tutors center around well-being. Chris McGovern, leader of the Campaign for Real Education, argued that building AI-driven classrooms could encroach on children's social skills. The 2025 NSPCC report on generative AI <citation linkend="nspcc-genai-safeguarding" /> and child safety strongly implied that children remain vulnerable to its misuse due to existing safety measures being insufficient as preventative safeguards.
+			  However, critics of AI tutors mostly center around the children's well-being. Chris McGovern, leader of the Campaign for Real Education, argued that building AI-driven classrooms could encroach on children's social skills. The 2025 NSPCC report on generative AI <citation linkend="nspcc-genai-safeguarding" /> and child safety, strongly implied that children remain vulnerable to the technology's misuse due to companies existing insufficient safety measures.
 		  </para>
 		  <para>
-CharacterAI is a platform to digitally chat through AI companionships <citation linkend="bbc-charai-therapist-bot" /> simulating real and fictional people, with millions of users <citation linkend="charai-lawsuits" />. The company publicly states user safety is a priority <citation linkend="charai-safety-updates" />. However, despite these claims, CharacterAI is currently facing significant legal challenges due to lawsuits alleging harm to children and teenagers who have used the platform. One of the more extreme examples involved romancing and convincing a 14-year-old to commit suicide <citation linkend="nypost-14yo-charai" />.
+Character AI is a platform to digitally chat through AI companionships <citation linkend="bbc-charai-therapist-bot" /> simulating real and fictional people, with millions of users <citation linkend="charai-lawsuits" />. The company publicly states user safety is a priority <citation linkend="charai-safety-updates" />. However, despite these claims, CharacterAI is currently facing significant legal challenges due to lawsuits alleging harm to children and teenagers who have used the platform. One of the more extreme examples involved romancing and convincing a 14-year-old to commit suicide <citation linkend="nypost-14yo-charai" />.
 		  </para>
 		  <para>
-The risks associated with generative AI, as documented by experts, reinforce concerns over its unfettered operation. Many organisations have called on the government to implement safeguards against the rapid wave of AI innovations. However, the government has been slow to enact AI legislation, with Lord Holmes even accusing them of ignoring manifesto promises that called for such measures <citation linkend="independent-lord-holmes" />. They also rebranded the AI Safety Institute as the AI Security Institute. Notably, during a global summit in February, the government refused to sign an international AI declaration, citing a lack of 'practical clarity.'
+The risks associated with generative AI, as documented by experts, reinforce concerns over its unfettered operation. Many organisations have called on the government to implement safeguards against the rapid wave of AI innovations. However, the government has been slow to enact AI legislation, with Lord Holmes even accusing them of ignoring manifesto promises that called for such measures <citation linkend="independent-lord-holmes" />. They also rebranded the AI Safety Institute as the AI Security Institute. Notably, during a global summit in February, the government refused to sign an international AI declaration, citing a lack of "practical clarity."
 		  </para>
-  <para>
-Both applications leverage generative AI—a term consistent with the DfE's classification of such tools—a subclass of artificial intelligence specifically designed to analyse public data and generate meaningful outputs.
-  </para>
+  </section>
+  <section>
+	  <title>Conclusion</title>
+	  <para> 
+The government's long-term support for AI has set the public sector on a path toward greater adoption. These initiatives were introduced to drive economic growth. However, this support has prompted unionised groups to defend job opportunities for teachers.
+	  </para>
+<para>
+	Furthermore, generative AI is now firmly in the public consciousness, with both teachers and students increasingly inclined to use the technology. Its benefits include enhancing learning environments by providing students with more ways to engage with the curriculum and allowing teachers to focus on higher-value tasks
+</para>
+	  <para>
+		  Although AI has shown positive outcomes, critics argued that its impact on productivity could be a false economy. Regarding safety, concerns were raised about the risks for children proactively engaging with AI, particularly the potential for coercion of vulnerable children. Some experts advocated for a more proactive government response, believing that new legislation was necessary to protect people from the realities of AI.
+	  </para>
   </section>
    <bibliography role="serial">
   <title>Bibliography</title> 
@@ -199,7 +208,7 @@ https://www.ibm.com/think/insights/customer-service-future
   </bibliosource>
 </biblioentry>
 
-<biblioentry id="mckinsey-global-ai-survey">
+<biblioentry xreflabel="6" xml:id="mckinsey-global-ai-survey">
   <citetitle>The state of AI: How organizations are rewiring to capture value</citetitle>
   <author>
     <orgname>McKinsey and Company</orgname>
@@ -631,7 +640,7 @@ https://www.independent.co.uk/news/uk/home-news/government-house-of-lords-conser
 		    </link>
 	    </bibliosource>
     </biblioentry>
-    <biblioentry xreflabel="hello" xml:id="deep-thought-wins">
+    <biblioentry xreflabel="5" xml:id="deep-thought-wins">
      <title>AI Magazine</title>
      <citetitle>Deep Thought Wins Fredkin Intermediate Prize</citetitle>
      <author>
