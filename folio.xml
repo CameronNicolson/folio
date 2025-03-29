@@ -2,7 +2,8 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 
-<article>
+<article xmlns="http://docbook.org/ns/docbook"
+xmlns:xlink="http://www.w3.org/1999/xlink">
  <info>
  <title>The Place of AI in UK Public Sector</title>
  <date>28 March 2025</date>
@@ -14,62 +15,58 @@
  </author>
  </info>
  <para>
-	 Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service <citation>[<xref linkend="scotgov-spice-ai-healthcare" />,
-		 <xref linkend="forbes-how-ai-fraud-detection" />,
-		 <xref linkend="bbc-ai-production" />,
-		 <xref linkend="ibm-customer-service-ai" />]</citation>.
-		 Brand-new AI-driven markets have also emerged, such as self-driving cars and virtual assistants, further integrating AI into daily life. Just as electricity constantly flows through our walls, powering our devices, AI is becoming an equally pervasive force.
+Artificial Intelligence (AI) is a disruptive technology, transforming industries such as healthcare, finance, media, and customer service<citation linkend="scotgov-spice-ai-healthcare" /><citation linkend="forbes-how-ai-fraud-detection" /><citation linkend="bbc-ai-production" /><citation linkend="ibm-customer-service-ai" />. Brand-new AI-driven markets have also emerged, such as self-driving cars and virtual assistants, further integrating AI into daily life. Just as electricity constantly flows through our walls, powering our devices, AI is becoming an equally pervasive force.
 	 </para>
 	<para>
-		The development of AI began over 70 years ago <citation linkend="ai-history">[<xref linkend="ai-history" />]</citation>. Throughout its history, it has achieved spectacular feats such as challenging humans in chess and defeating a Grandmaster in 1988 [<xref linkend="deep-thought-wins" xlink:href="#deep-thought-wins" />], to some which might seem mundane now, such as an event in 2018 when a machine, using a natural-sounding synthetic voice, managed to book a restaurant table <citation linkend="theverge-google-restaurant">[<xref linkend="theverge-google-restaurant" />]</citation>. Then in 2022, ChatGPT’s ability to hold conversations like a human, matched with remarkable intelligence, propelled it to phenomenal status, sparking a frenzy of major investment and competition in the generative AI space <citation linkend="wired-google-frenzy">[<xref linkend="wired-google-frenzy" /></citation>,<citation linkend="nyt-microsoft-openai"><xref linkend="nyt-microsoft-openai" />]</citation>.
+The development of AI began over 70 years ago<citation linkend="ai-history" />. Throughout its history, it has achieved spectacular feats such as challenging humans in chess and defeating a Grandmaster in 1988<citation linkend="deep-thought-wins" />, some of which might seem mundane now, such as an event in 2018 when a machine, using a natural-sounding synthetic voice, managed to book a restaurant table<citation linkend="theverge-google-restaurant" />. Then in 2022, ChatGPT’s ability to hold conversations like a human, matched with remarkable intelligence, propelled it to phenomenal status, sparking a frenzy of major investment and competition in the generative AI space<citation linkend="nyt-microsoft-openai" />.
 		</para>
 <para>
-	After the rapid adoption of generative AI (GenAI), companies are now prioritising profitability by improving safety measures and best practices. McKinsey's latest AI survey <citation linkend="mckinsey-global-ai-survey">[<xref linkend="mckinsey-global-ai-survey"/>]</citation> highlights a growing focus on risk mitigation and hiring AI specialists to support structural changes in business workflows.
+After the rapid adoption of generative AI (GenAI), companies are now prioritising profitability by improving safety measures and best practices. McKinsey's latest AI survey<citation linkend="mckinsey-global-ai-survey"/> highlights a growing focus on risk mitigation and hiring AI specialists to support structural changes in business workflows.
 </para>
 <para>
-	The primary benefit of GenAI is its efficiency. GenAI offers  a wide range of applications that generate content on demand. From delivering instant answers to user queries to generating entire outputs, such as "Make me a spreadsheet", GenAI helps organisations reduce time spent on repetitive tasks and focus on more critical work <citation linkend="ibm-what-is-genai">[<xref linkend="ibm-what-is-genai" />]</citation>.
+The primary benefit of GenAI is its efficiency. GenAI offers  a wide range of applications that generate content on demand. From delivering instant answers to user queries to generating entire outputs, such as "Make me a spreadsheet", GenAI helps organisations reduce time spent on repetitive tasks and focus on more critical work<citation linkend="ibm-what-is-genai" />.
   </para>
   <para>
-	  The UK government has, of course, recognised the potential of GenAI to enhance the quality and efficiency of public services. Successive administrations have pledged significant investments, with the Conservative-led government allocating £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce">[<xref linkend="govuk-invest-ai-taskforce" />]</citation>, increasing funding for related research, and supporting the development of supercomputers to handle AI's intensive computational demands <citation linkend="govuk-supercomputers">[<xref linkend="govuk-supercomputers" />]</citation>.
+The UK government has, of course, recognised the potential of GenAI to enhance the quality and efficiency of public services. Successive administrations have pledged significant investments, with the Conservative-led government allocating £900 million to British AI projects <citation linkend="govuk-invest-ai-taskforce" />, increasing funding for related research, and supporting the development of supercomputers to handle AI's intensive computational demands<citation linkend="govuk-supercomputers" />.
   </para>
-		 <para>
-Despite cancelling this supercomputer project <citation linkend="bbc-edinburgh-shelved">[<xref linkend="bbc-edinburgh-shelved" />]</citation>, new Prime Minister, Keir Starmer, swiftly announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private investments and committed more spending to help realise this vision <citation linkend="govuk-14b">[<xref linkend="govuk-14b" />]</citation>, signalling a strong shift in policy. Starmer boldly declared that Britain aims to become "one of the great AI superpowers" [<xref linkend="pm-ai-speech2025" />]. 
-		 </para>
 <para>
-	To move towards this goal, Starmer stated that the government's strategy to embrace AI would "improve public services" with a particular focus on the embattled state school system. Education and schooling is one of the UK's core public services. The sector employs around 1.23 million people [<xref linkend="ons-pse-dataset-dec2024" />], making up approximately 20% of the UK’s 6.12 million public sector workforce. In recent years, however, the attractiveness of teaching has fallen across Britain and working conditions have worsened. Within Scotland, staffing saw a steady increase in the pupil-teacher ratio [<xref linkend="scotgov-school-stats" />], which currently stands at 13.3 students per teacher. The compensation of teachers is at risk too, with a rise in teachers leaving before completing their five-year tenure, according to the latest figures [<xref linkend="stv-teachers-leaving" />].
+Despite cancelling this supercomputer project<citation linkend="bbc-edinburgh-shelved" />, new Prime Minister Keir Starmer swiftly announced new initiatives to position AI as a central pillar of the UK's economic transformation. The government secured £14 billion in private investments and committed more spending to help realise this vision<citation linkend="govuk-14b" />, signalling a strong shift in policy. Starmer boldly declared that Britain aims to become "one of the great AI superpowers"<citation linkend="pm-ai-speech2025" />. 
 </para>
 <para>
-	England faces a similar situation with a massive teacher recruitment shortage forecast [<xref linkend="bbc-teacher-shortage" />], and according to the National Foundation for Educational Research, job dissatisfaction is severe, with 90% saying they have considered leaving their jobs due to high workloads [<xref linkend="nfer-workload" />].
+To move towards this goal, Starmer stated that the government's strategy to embrace AI would "improve public services" with a particular focus on the embattled state school system. Education and schooling are one of the UK's core public services. The sector employs around 1.23 million people<citation linkend="ons-pse-dataset-dec2024" />, making up approximately 20% of the UK’s 6.12 million public sector workforce. In recent years, however, the attractiveness of teaching has fallen across Britain and working conditions have worsened. Within Scotland, staffing saw a steady increase in the pupil-teacher ratio<citation linkend="scotgov-school-stats" />, which currently stands at 13.3 students per teacher. The compensation of teachers is at risk too, with a rise in teachers leaving before completing their five-year tenure, according to the latest figures<citation linkend="stv-teachers-leaving" />.
 </para>
 <para>
-	The government aimed to tackle the situation by providing £1 million in funding to develop AI teaching tools [<xref linkend="govuk-one-million-ai-teaching-tools" />]. This investment has so far yielded tangible prototypes. The AI Opportunities Action Plan [<xref linkend="ai-opportunities-action-plan" />], devised by the government's AI adviser, Matt Clifford, outlined intentions for public services to be the primary customer and major user of their AI strategy. Elsewhere in government, the Chancellor championed AI's role in helping downsize the civil service [<xref linkend="skynews-civil" />, <xref linkend="civil-chancellor" />], with machines expected to take on more tasks.
+England faces a similar situation with a massive teacher recruitment shortage forecast<citation linkend="bbc-teacher-shortage" />, and according to the National Foundation for Educational Research, job dissatisfaction is severe, with 90% saying they have considered leaving their jobs due to high workloads<citation linkend="nfer-workload" />.
 </para>
 <para>
-	The National Education Union (NEU), a prominent union in England and Wales, opposes moves to prioritise AI technologies at the expense of teacher employment <citation linkend="neu-ai-    education">[<xref linkend="neu-ai-education" />]</citation>, citing real concerns over weakening job security. They also argued that such tools devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. The NEU's general secretary criticised the exclusion of teaching experts from the government's decisions, stating that "there had not been any meaningful discussion with the sector yet" <citation linkend="skynews-neu-job-loss-fears">[<xref linkend="skynews-neu-job-loss-fears" />]</citation>.
+The government aimed to tackle the situation by providing £1 million in funding to develop AI teaching tools<citation linkend="govuk-one-million-ai-teaching-tools" />. This investment has so far yielded tangible prototypes. The AI Opportunities Action Plan<citation linkend="ai-opportunities-action-plan" />, devised by the government's AI adviser, Matt Clifford, outlined intentions for public services to be the primary customer and major user of their AI strategy. Elsewhere in government, the Chancellor championed AI's role in helping downsize the civil service<citation linkend="skynews-civil" /><citation linkend="civil-chancellor" />, with machines expected to take on more tasks.
 </para>
 <para>
-	The "proof-of-concept" AI tool, developed by Faculty for the Department of Education [<xref linkend="dofe-technical-report-ai-use" />], explored the use of GenAI in evaluating lower-level English literacy material. It successfully provided feedback using GPT-4-turbo, and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release [<xref linkend="govuk-press-release-teachers-ai-tools-homework" />] highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
+The National Education Union (NEU), a prominent union in England and Wales, opposes moves to prioritise AI technologies at the expense of teacher employment<citation linkend="neu-ai-education" />, citing real concerns over weakening job security. They also argued that such tools devalue the profession by shifting teachers' roles from crafting high-quality lessons to merely administering the technology itself. The NEU's general secretary criticised the exclusion of teaching experts from the government's decisions, stating that "there had not been any meaningful discussion with the sector yet"<citation linkend="skynews-neu-job-loss-fears" />.
+</para>
+<para>
+The "proof-of-concept" AI tool, developed by Faculty for the Department of Education<citation linkend="dofe-technical-report-ai-use" />, explored the use of GenAI in evaluating lower-level English literacy material. It successfully provided feedback, and teachers generally found it highly useful, with some appreciating its time-saving aspects. While the associated press release<citation linkend="govuk-press-release-teachers-ai-tools-homework" /> highlighted the tool’s potential for high accuracy, the more detailed findings in the technical report, absent from the press release, revealed a decline in error-spotting accuracy when processing longer, more complex pieces of writing.
 		  </para>
-		  <para>
-In the case of young students, four out of five teenagers (ages 13–17) engage with GenAI [<xref linkend="ofcom-kids-embrace-ai" />], and over half express interest in using AI for studying, according to reports [<xref linkend="ldn-gointerest-kids-ai" />]. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat [<xref linkend="bbc-scot-cheating-ai" />].
-		  </para>
-		  <para>
-			  At Tor Bank, a special needs school, AI has been used to help students communicate and be more creative [<xref linkend="bbc-tor-bank" />]. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
-		  </para>
-		  <para>
-Moreover, David Game College designed a GCSE course to be "teacherless," [<xref linkend="skynews-teacherless-class" />] allowing teenagers to engage in one-on-one sessions with various technologies. Based the interactions, the school's AI-powered Adaptive Learner System [<xref linkend="david-game-college-coursepage" />] scores sessions in order to personalise each student's virtual tutor.
-		  </para>
-		  <para>
-			  The reception of the AI-tutor was bleak and suggested potential harm to children's well-being. Chris McGovern, leader of the Campaign for Real Education, argued that building AI-driven classrooms could encroach on children's social skills [<xref linkend="skynews-teacherless-class" />,<xref linkend="eandt-ai-teachers" />]. The 2025 NSPCC report on generative AI [<xref linkend="nspcc-genai-safeguarding" />] and child safety strongly implied that children remain vulnerable to the technology's misuse due to companies' existing insufficient safety measures.
+<para>
+In the case of young students, four out of five teenagers (ages 13–17) engage with GenAI<citation linkend="ofcom-kids-embrace-ai" />, and over half express interest in using AI for studying, according to reports<citation linkend="ldn-gointerest-kids-ai" />. This trend extends to higher education, their closest counterpart, with UK universities increasingly disciplining students for using AI to cheat<citation linkend="bbc-scot-cheating-ai" />.
 </para>
 <para>
-	CharacterAI is an example of a GenAI app popular with children [<xref linkend="nspcc-genai-safeguarding" />], highlighting associated safety risks. Despite its claims of prioritizing user safety [<xref linkend="charai-safety-updates" />], it faces lawsuits over alleged harm to minors [<xref linkend="charai-lawsuits" />]. An extreme case involved CharacterAI forming a romantic connection with a 14-year-old and allegedly encouraging them to take their own life [<xref linkend="nypost-14yo-charai" />].
+At Tor Bank, a special needs school, AI has been used to help students communicate and be more creative<citation linkend="bbc-tor-bank" />. "Although our kids don't have voices sometimes, it's making their creations come alive," said Danielle Perry. She also highlighted that pupils were using AI to research and create presentations, demonstrating how alternative approaches can support their learning.
 </para>
 <para>
-	The risks associated with GenAI, as documented by experts, reinforce concerns over its unfettered operation. Many organisations have called on the government to implement safeguards against the rapid wave of AI innovations [ <xref linkend="nspcc-genai-safeguarding" />,<xref linkend="ft-creative" />]. However, the government has been slow to enact AI legislation, with Lord Holmes even accusing them of ignoring manifesto promises that called for such measures [<xref linkend="independent-lord-holmes" />]. 
+Moreover, David Game College designed a GCSE course to be "teacherless,"<citation linkend="skynews-teacherless-class" /> allowing teenagers to engage in one-on-one sessions with various technologies. Based on the interactions, the school's AI-powered Adaptive Learner System<citation linkend="david-game-college-coursepage" /> scores sessions in order to personalise each student's virtual tutor.
+</para>
+<para>
+Reception of the AI-tutor was bleak and suggested potential harm to children's well-being. Chris McGovern, leader of the Campaign for Real Education, argued that building AI-driven classrooms could encroach on children's social skills<citation linkend="skynews-teacherless-class" /><citation linkend="eandt-ai-teachers" />. The 2025 NSPCC report on generative AI<citation linkend="nspcc-genai-safeguarding" /> and child safety strongly implied that children remain vulnerable to the technology's misuse due to companies' existing insufficient safety measures.
+</para>
+<para>
+CharacterAI is an example of a GenAI app popular with children<citation linkend="nspcc-genai-safeguarding" />, highlighting associated safety risks. Despite its claims of prioritizing user safety<citation linkend="charai-safety-updates" />, it faces lawsuits over alleged harm to minors<citation linkend="charai-lawsuits" />. An extreme case involved CharacterAI forming a romantic connection with a 14-year-old and allegedly encouraging them to take their own life<citation linkend="nypost-14yo-charai" />.
+</para>
+<para>
+The risks associated with GenAI, as documented by experts, reinforce concerns over its unfettered operation. Many organisations have called on the government to implement safeguards against the rapid wave of AI innovations<citation linkend="nspcc-genai-safeguarding" /><citation linkend="ft-creative" />. However, the government has been slow to enact AI legislation, with Lord Holmes even accusing them of ignoring manifesto promises that called for such measures<citation linkend="independent-lord-holmes" />. 
 </para> 
- <para>
-	 The government's response so far has included rebranding the AI Safety Institute as the AI Security Institute (AISI), a domestic research institute focused on AI governance. Additionally, the government refused to sign a global AI declaration in February [<xref linkend="skynews-no-sign" />], citing a lack of "practical clarity." While the government took a different stance on the agreement, Carsten Jung, the head of AI at the Institute for Public Policy Research (IPPR), raised concerns that its focus on national security and strategic interests might inadvertently prioritise a "race" over the necessary joint management of risks, potentially leading to negative consequences.
+<para>
+The government's response so far has included rebranding the AI Safety Institute as the AI Security Institute (AISI), a domestic research institute focused on AI governance. Additionally, the government refused to sign a global AI declaration in February<citation linkend="skynews-no-sign" />, citing a lack of "practical clarity." While the government took a different stance on the agreement, Carsten Jung, the head of AI at the Institute for Public Policy Research (IPPR), raised concerns that its focus on national security and strategic interests might inadvertently prioritise a "race" over the necessary joint management of risks, potentially leading to negative consequences.
  </para>
 <para> 
 AI is rapidly integrating into the UK public sector, offering increased efficiency and innovation. Government investment fuels this growth, with AI-driven solutions enhancing public services and reducing administrative burdens. In education and business, AI can support professionals by automating routine tasks, allowing more time for direct engagement.
@@ -82,7 +79,7 @@ For AI to be successful, the UK must balance innovation with accountability. Inc
 </para>
    <bibliography role="serial">
   <title>Bibliography</title> 
-  <biblioentry xreflabel="1" id="scotgov-spice-ai-healthcare">
+  <biblioentry xreflabel="1" xml:id="scotgov-spice-ai-healthcare">
     <abbrev>1.</abbrev>
     <authorgroup>
       <author>
@@ -93,12 +90,12 @@ For AI to be successful, the UK must balance innovation with accountability. Inc
     <publisher>Scottish Parliament Information Centre (SPICe)</publisher>
     <pubdate>25 June 2024</pubdate>
 	  <bibliosource class="uri">
-		  <link href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
+		  <link xlink:href="https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9">
 			  https://digitalpublications.parliament.scot/ResearchBriefings/Report/2024/6/25/1373556b-9298-42d4-8a24-0e493b84cec9
 	  </link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry xreflabel="2" id="forbes-how-ai-fraud-detection">
+  <biblioentry xreflabel="2" xml:id="forbes-how-ai-fraud-detection">
         <abbrev>2.</abbrev>
 	  <authorgroup>
 		<author>
@@ -117,12 +114,12 @@ For AI to be successful, the UK must balance innovation with accountability. Inc
 	  </publisher>
 	  <pubdate>1 November 2023</pubdate>
 	  <bibliosource class="uri">
-		  <link href="https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/">
+		  <link xlink:href="https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/">
 			  https://www.forbes.com/councils/forbestechcouncil/2023/11/01/how-ai-and-machine-learning-help-detect-and-prevent-fraud/
 		  </link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry xreflabel="3" id="bbc-ai-production">
+  <biblioentry xreflabel="3" xml:id="bbc-ai-production">
     <abbrev>3.</abbrev>
     <authorgroup>
       <author>
@@ -137,17 +134,17 @@ For AI to be successful, the UK must balance innovation with accountability. Inc
 	  </publisher>
 	  <pubdate>1 Janurary 2017</pubdate>
 	  <bibliosource class="uri">
-		  <link href="https://www.bbc.co.uk/rd/projects/ai-production">
-https://www.bbc.co.uk/rd/projects/ai-production
-		  </link>
+<link xlink:href="https://www.bbc.co.uk/rd/projects/ai-production">
+https://www.bbc.co.uk/rd/projects/ai-production</link>
 	  </bibliosource>
   </biblioentry>
- <biblioentry xreflabel="4" id="ibm-customer-service-ai">
-    <abbrev>4.</abbrev>
-      <corpauthor>
-        <trademark>IBM</trademark>
-	International Business Machines Corporation
-      </corpauthor>
+  <biblioentry pubwork="article" xreflabel="4" xml:id="ibm-customer-service-ai">
+	  <abbrev>4.</abbrev>
+	  <authorgroup>
+      <author>
+        <orgname>International Business Machines Corporation</orgname>
+      </author>
+      </authorgroup>
 	  <publisher>
 		  <publishername>
 			  International Business Machines Corporation
@@ -156,12 +153,10 @@ https://www.bbc.co.uk/rd/projects/ai-production
 	  <citetitle>6 ways AI can influence the future of customer service</citetitle>
 	  <pubdate>7 December 2023</pubdate>
 	  <bibliosource class="uri">
-		  <link href="https://www.ibm.com/think/insights/customer-service-future">
-https://www.ibm.com/think/insights/customer-service-future
-		  </link>
+		<link xlink:href="https://www.ibm.com/think/insights/customer-service-future">https://www.ibm.com/think/insights/customer-service-future</link>
 	  </bibliosource>
  </biblioentry>
-<biblioentry xreflabel="5" xml:id="ai-history">
+ <biblioentry pubwork="article" xreflabel="5" xml:id="ai-history">
         <abbrev>5.</abbrev>
 	<citetitle>History of artificial intelligence (AI)</citetitle>
 	<pubdate>2025</pubdate>
@@ -171,7 +166,7 @@ https://www.ibm.com/think/insights/customer-service-future
 	</publishername>
 	</publisher>
 	<bibliosource class="uri">
-		<link href="https://www.britannica.com/science/history-of-artificial-intelligence">
+		<link xlink:href="https://www.britannica.com/science/history-of-artificial-intelligence">
 			https://www.britannica.com/science/history-of-artificial-intelligence
 		</link>
 	</bibliosource>
@@ -212,7 +207,7 @@ https://www.ibm.com/think/insights/customer-service-future
            <publishername>The Verge</publishername>
 	  </publisher>
 	  <bibliosource pubwork="article">
-		  <link href="https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availability-49-us-states">
+		  <link xlink:href="https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availability-49-us-states">
 https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availability-49-us-states
 		  </link>
 	  </bibliosource>
@@ -235,7 +230,7 @@ https://www.theverge.com/2021/4/1/22361729/google-duplex-ai-reservation-availabi
     <publishername>WIRED</publishername>
   </publisher>
   <bibliosource class="uri">
-	  <link href="https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/">
+	  <link xlink:href="https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/">
 		  https://www.wired.com/story/google-openai-gemini-chatgpt-artificial-intelligence/?utm_source=chatgpt.com
 	  </link>
   </bibliosource>
@@ -277,10 +272,9 @@ https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 	  </link>
   </bibliosource>
 </biblioentry>
-<biblioentry xreflabel="11" xml:id="ibm-what-is-genai">
+<biblioentry pubwork="article" xreflabel="11" xml:id="ibm-what-is-genai">
 	<abbrev>11.</abbrev>
-	<authorgroup>
-	<author>
+	<authorgroup><author>
 		<personname>
 			<firstname>Mark</firstname>
 			<surname>Scapicchio</surname>
@@ -599,7 +593,7 @@ https://news.sky.com/story/teaching-unions-gear-up-for-fight-with-number-10-over
   </bibliosource>
   <revnum>RR1423</revnum>
   </biblioentry>
- <biblioentry xreflabel="29" pubwork="article" id="govuk-press-release-teachers-ai-tools-homework">
+ <biblioentry xreflabel="29" pubwork="article" xml:id="govuk-press-release-teachers-ai-tools-homework">
 	 <abbrev>29.</abbrev>
 	  <author>
 					 <orgname class="other" otherclass="national-government">
@@ -614,7 +608,7 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		  </link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry xreflabel="30" pubwork="article" id="ofcom-kids-embrace-ai">
+  <biblioentry xreflabel="30" pubwork="article" xml:id="ofcom-kids-embrace-ai">
 	  <abbrev>30.</abbrev>
 	  <author>
 		  <orgname>Office of Communications</orgname>
@@ -641,7 +635,7 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		  <link href="https://www.londondaily.news/ai-gap-56-of-students-want-to-learn-with-ai-but-uk-schools-lag-behind-with-just-20-having-access-to-ai-in-the-classroom/">https://www.londondaily.news/ai-gap-56-of-students-want-to-learn-with-ai-but-uk-schools-lag-behind-with-just-20-having-access-to-ai-in-the-classroom/</link>
 	  </biblioentry>
   </biblioentry>
-  <biblioentry xreflabel="32" pubwork="article" id="bbc-scot-cheating-ai">
+  <biblioentry xreflabel="32" pubwork="article" xml:id="bbc-scot-cheating-ai">
 	  <abbrev>32.</abbrev>
 	  <citetitle>Are Scottish students using AI to cheat their way to a degree?</citetitle>
 	  <pubdate>6 March 2025</pubdate>
@@ -684,7 +678,7 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		  <link xlink:href="https://www.bbc.co.uk/news/articles/cg704gyer3xo">https://www.bbc.co.uk/news/articles/cg704gyer3xo</link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry xreflabel="34" pubwork="article" id="skynews-teacherless-class">
+  <biblioentry xreflabel="34" pubwork="article" xml:id="skynews-teacherless-class">
 	  <abbrev>34</abbrev>
 	  <author>
 		  <personname>
@@ -701,7 +695,7 @@ https://www.gov.uk/government/news/teachers-to-get-more-trustworthy-ai-tech-as-g
 		<link href="https://news.sky.com/story/uks-first-teacherless-ai-classroom-set-to-open-in-london-13200637">https://news.sky.com/story/uks-first-teacherless-ai-classroom-set-to-open-in-london-13200637</link>
 	  </bibliosource>
   </biblioentry>
-  <biblioentry xreflabel="35" pubwork="webpage" id="david-game-college-coursepage">
+  <biblioentry xreflabel="35" pubwork="webpage" xml:id="david-game-college-coursepage">
 	  <abbrev>35</abbrev>
 	   <citetitle>GCSE AI Adaptive</citetitle>
 	   <author>
